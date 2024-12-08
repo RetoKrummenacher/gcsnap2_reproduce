@@ -1,0 +1,119 @@
+2024-08-09 04:18:22,955 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.1:43495'
+2024-08-09 04:18:22,962 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.1:39207'
+2024-08-09 04:18:24,075 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.1:37986
+2024-08-09 04:18:24,075 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.1:44177
+2024-08-09 04:18:24,075 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.1:37986
+2024-08-09 04:18:24,076 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.1:44177
+2024-08-09 04:18:24,076 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-0
+2024-08-09 04:18:24,076 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-1
+2024-08-09 04:18:24,076 - distributed.worker - INFO -          dashboard at:           10.34.59.1:36269
+2024-08-09 04:18:24,076 - distributed.worker - INFO -          dashboard at:           10.34.59.1:41800
+2024-08-09 04:18:24,076 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.4:41470
+2024-08-09 04:18:24,076 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,076 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.4:41470
+2024-08-09 04:18:24,076 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:18:24,076 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,076 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:18:24,076 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:18:24,076 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-cyklpw_6
+2024-08-09 04:18:24,076 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:18:24,076 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-u98st21y
+2024-08-09 04:18:24,076 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,076 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,466 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:18:24,466 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.4:41470
+2024-08-09 04:18:24,467 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,467 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:18:24,467 - distributed.core - INFO - Starting established connection to tcp://10.34.59.4:41470
+2024-08-09 04:18:24,467 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.4:41470
+2024-08-09 04:18:24,467 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:18:24,468 - distributed.core - INFO - Starting established connection to tcp://10.34.59.4:41470
+slurmstepd: error: *** JOB 2328920 ON cl-node001 CANCELLED AT 2024-08-09T04:18:33 ***
+2024-08-09 04:18:33,468 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.1:37986. Reason: scheduler-close
+2024-08-09 04:18:33,469 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.1:44177. Reason: scheduler-close
+2024-08-09 04:18:33,471 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.1:43638 remote=tcp://10.34.59.4:41470>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.1:43638 remote=tcp://10.34.59.4:41470>: Stream is closed
+2024-08-09 04:18:33,471 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.1:43640 remote=tcp://10.34.59.4:41470>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.1:43640 remote=tcp://10.34.59.4:41470>: Stream is closed
+2024-08-09 04:18:33,474 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/worker.py", line 1252, in heartbeat
+    response = await retry_operation(
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 452, in retry_operation
+    return await retry(
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 431, in retry
+    return await coro()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/core.py", line 1395, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/core.py", line 1154, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://10.34.59.1:43642 remote=tcp://10.34.59.4:41470>: Stream is closed
+2024-08-09 04:18:33,474 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/worker.py", line 1252, in heartbeat
+    response = await retry_operation(
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 452, in retry_operation
+    return await retry(
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/utils_comm.py", line 431, in retry
+    return await coro()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/core.py", line 1395, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/core.py", line 1154, in send_recv
+    response = await comm.read(deserializers=deserializers)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://10.34.59.1:43644 remote=tcp://10.34.59.4:41470>: Stream is closed
+2024-08-09 04:18:33,477 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.1:43495'. Reason: scheduler-close
+2024-08-09 04:18:33,478 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.1:39207'. Reason: scheduler-close

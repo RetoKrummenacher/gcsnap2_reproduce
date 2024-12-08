@@ -1,0 +1,33 @@
+2024-08-09 05:58:38,555 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.2:41930'
+2024-08-09 05:58:39,147 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-u29qrnc4', purging
+2024-08-09 05:58:39,147 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-o58i47rn', purging
+2024-08-09 05:58:39,147 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-icgrbm05', purging
+2024-08-09 05:58:39,147 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-ugw986ny', purging
+2024-08-09 05:58:39,148 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-sgzk1bb5', purging
+2024-08-09 05:58:39,148 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-6texoc9a', purging
+2024-08-09 05:58:39,148 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-js3gitvo', purging
+2024-08-09 05:58:39,148 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-q_z35j8g', purging
+2024-08-09 05:58:39,148 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-j0262uh0', purging
+2024-08-09 05:58:39,149 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-ct2w_z_v', purging
+2024-08-09 05:58:39,149 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-m__wasy6', purging
+2024-08-09 05:58:39,149 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-qs7bt5lf', purging
+2024-08-09 05:58:39,149 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-c0znvw3c', purging
+2024-08-09 05:58:39,149 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-k0h6sbc1', purging
+2024-08-09 05:58:39,150 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-l1k0lih0', purging
+2024-08-09 05:58:39,150 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-i0cdqj54', purging
+2024-08-09 05:58:39,620 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.2:34903
+2024-08-09 05:58:39,620 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.2:34903
+2024-08-09 05:58:39,620 - distributed.worker - INFO -           Worker name:             SLURMCluster-1
+2024-08-09 05:58:39,620 - distributed.worker - INFO -          dashboard at:           10.34.59.2:41132
+2024-08-09 05:58:39,620 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:35357
+2024-08-09 05:58:39,620 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:58:39,620 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 05:58:39,620 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 05:58:39,620 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-03ht173i
+2024-08-09 05:58:39,620 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:58:39,972 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 05:58:39,972 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:35357
+2024-08-09 05:58:39,972 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:58:39,973 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:35357
+2024-08-09 05:59:39,414 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.2:34903. Reason: scheduler-close
+slurmstepd: error: *** JOB 2330384 ON cl-node002 CANCELLED AT 2024-08-09T05:59:39 ***

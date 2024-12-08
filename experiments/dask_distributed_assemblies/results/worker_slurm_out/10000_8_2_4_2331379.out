@@ -1,0 +1,39 @@
+2024-08-09 08:14:33,227 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.9:37425'
+2024-08-09 08:14:33,231 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.9:40342'
+2024-08-09 08:14:34,345 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.9:40534
+2024-08-09 08:14:34,345 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.9:40534
+2024-08-09 08:14:34,345 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.9:38991
+2024-08-09 08:14:34,345 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-1
+2024-08-09 08:14:34,345 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.9:38991
+2024-08-09 08:14:34,345 - distributed.worker - INFO -          dashboard at:           10.34.59.9:45313
+2024-08-09 08:14:34,345 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-0
+2024-08-09 08:14:34,345 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:37003
+2024-08-09 08:14:34,345 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,345 - distributed.worker - INFO -          dashboard at:           10.34.59.9:39471
+2024-08-09 08:14:34,345 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:14:34,345 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:37003
+2024-08-09 08:14:34,345 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,345 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:14:34,345 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:14:34,345 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-g_epahb0
+2024-08-09 08:14:34,346 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:14:34,346 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,346 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-3mxj338m
+2024-08-09 08:14:34,346 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,740 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:14:34,741 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:37003
+2024-08-09 08:14:34,741 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,741 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:37003
+2024-08-09 08:14:34,742 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:14:34,742 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:37003
+2024-08-09 08:14:34,743 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:14:34,743 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:37003
+slurmstepd: error: *** JOB 2331379 ON cl-node009 CANCELLED AT 2024-08-09T08:14:52 ***
+2024-08-09 08:14:52,841 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.9:40534. Reason: scheduler-close
+2024-08-09 08:14:52,841 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.9:38991. Reason: scheduler-close
+2024-08-09 08:14:52,843 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.9:40342'. Reason: scheduler-close
+2024-08-09 08:14:52,844 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.9:37425'. Reason: scheduler-close
+2024-08-09 08:14:52,846 - distributed.core - INFO - Received 'close-stream' from tcp://10.34.59.1:37003; closing.
+2024-08-09 08:14:52,847 - distributed.nanny - INFO - Worker closed
+2024-08-09 08:14:52,847 - distributed.core - INFO - Received 'close-stream' from tcp://10.34.59.1:37003; closing.
+2024-08-09 08:14:52,847 - distributed.nanny - INFO - Worker closed

@@ -1,0 +1,41 @@
+#!/bin/sh
+#SBATCH --time=6:00:00
+#SBATCH --exclusive
+#SBATCH --partition=amd
+#SBATCH --hint=nomultithread
+
+# ${SLURM_ARRAY_TASK_ID}
+
+# change directory
+cd ${source_p}
+# checkout the correct branch
+git checkout timing
+
+# activate conda
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate GCsnap
+
+GCsnap 	-targets ${target_files}target_sequences_${targets}.txt \
+		-cpu ${threads} \
+		-annotate_TM False \
+		-get_functional_annotations False \
+		-get_pdb False \
+		-all-against-all_method mmseqs \
+		-tmp_folder ${source_p}/tmp \
+		-user_email [add_your_ncbi_email] \
+		-ncbi_api_key [add_your_ncbi_key] \
+		> ${target_p}out_${ident}.txt
+		
+# move output files to GCsnaps output folder
+mv ${target_p}out_${ident}.txt ${source_p}target_sequences_${targets}
+mv ${target_p}run_${ident}.out ${source_p}target_sequences_${targets}		
+
+# move output folder to experiment folder, delete existng once before
+rm -rf ${target_p}results/${targets}_targets_${threads}_threads_${repetition}_rep
+mv ${source_p}target_sequences_${targets} ${target_p}results/${targets}_targets_${threads}_threads_${repetition}_rep
+
+# empty temp folder
+rm -rf ${source_p}tmp/*
+
+# deactivate conda
+conda deactivate

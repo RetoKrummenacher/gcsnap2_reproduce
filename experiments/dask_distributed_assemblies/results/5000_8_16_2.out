@@ -1,0 +1,24 @@
+Starting Cluster
+#!/usr/bin/env bash
+
+#SBATCH -J dask-worker
+#SBATCH -n 1
+#SBATCH --cpus-per-task=16
+#SBATCH --mem=30G
+#SBATCH -t 00:30:00
+#SBATCH --hint=nomultithread
+#SBATCH --exclusive
+#SBATCH --partition=xeon
+#SBATCH --output=/users/stud/k/kruret00/MT/dask_distributed_assemblies/results/worker_slurm_out/5000_8_16_2_%j.out
+ml Python
+/opt/apps/easybuild/software/Python/3.10.8-GCCcore-12.2.0/bin/python3 -m distributed.cli.dask_worker tcp://10.34.59.1:34423 --name dummy-name --nthreads 1 --memory-limit 1.86GiB --nworkers 16 --nanny --death-timeout 60
+
+Running repetition 2...
+{'type': 'Scheduler', 'id': 'Scheduler-65415973-7f33-4bba-b7b0-900122988f70', 'address': 'tcp://10.34.59.1:34423', 'services': {'dashboard': 8787}, 'started': 1723178221.9209874, 'workers': {}}
+Cores 0
+Threads 0
+Futures created
+Results gathered
+Done repetition 2
+Closing Cluster
+Finished and found 5000 assemblies

@@ -1,0 +1,17 @@
+2024-08-09 04:32:21,802 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.12:40257'
+2024-08-09 04:32:23,094 - distributed.worker - INFO -       Start worker at:    tcp://10.34.59.12:32959
+2024-08-09 04:32:23,094 - distributed.worker - INFO -          Listening to:    tcp://10.34.59.12:32959
+2024-08-09 04:32:23,094 - distributed.worker - INFO -           Worker name:             SLURMCluster-5
+2024-08-09 04:32:23,094 - distributed.worker - INFO -          dashboard at:          10.34.59.12:37551
+2024-08-09 04:32:23,094 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:23,094 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:23,094 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:32:23,094 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:32:23,094 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-47wnbfm8
+2024-08-09 04:32:23,094 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:23,681 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:32:23,682 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:23,682 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:23,682 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45568
+slurmstepd: error: *** JOB 2329193 ON cl-node012 CANCELLED AT 2024-08-09T04:32:27 ***
+2024-08-09 04:32:27,877 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.12:32959. Reason: scheduler-close

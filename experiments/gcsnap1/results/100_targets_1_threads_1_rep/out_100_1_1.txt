@@ -1,0 +1,707 @@
+/users/stud/k/kruret00/MT/GCsnap
+
+Downloading and parsing RefSeq and Genbank summary tables
+
+ ... Taking care of genbank summary table
+ ... ... Summary table already exists (version from: Tue Jul 16 08:39:12 2024)
+ ... ... Parsing summary table
+Time for parsing genbank: 5.07 seconds
+ ... ... Done parsing
+ ... Taking care of refseq summary table
+ ... ... Summary table already exists (version from: Tue Jul 16 08:39:14 2024)
+ ... ... Parsing summary table
+Time for parsing refseq: 0.92 seconds
+ ... ... Done parsing
+Time to download and parse refseq and gb databases: 5.99 seconds
+
+Parsing targets
+
+ ... Found 1 jobs to do: ['target_sequences_100']
+Time to parse targets: 0 seconds
+Time to run step 1: 0 seconds
+
+Working on job 'target_sequences_100'
+
+ 1. Collecting the genomic contexts of 100 unique input entrezIDs (may take some time)
+
+ ... Thread 0: A partial search was already performed for 51 entrezIDs (from which, 30 were valid). Will continue it.
+
+Time to get assembly id from ncbi code for WP_010732931.1: 0.76 seconds
+Time to find assembly ncbi code for WP_010732931.1: 0.76 seconds
+ ... WP_010732931.1 belongs to assembly GCF_025122335.1 (51/100)
+ ... ... Downloading and extracting assembly GCF_025122335.1 annotated gff file
+Time to download assembly GCF_025122335.1: 1.04 seconds
+ ... ... ... Downloaded assembly GCF_025122335.1 ....
+Time to extract assembly file GCF_025122335.1: 0.04 seconds
+Time to parse assembly GCF_025122335.1: 0.04 seconds
+ ... ... ... Finished parsing assembly GCF_025122335.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_025122335.1 (WP_010732931.1): 1.22 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_010732931.1
+ ... ... ... Found 8 flanking genes for WP_010732931.1
+Time to extract 8 flanking genes for WP_010732931.1 from GCF_025122335.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_010732931.1 from GCF_025122335.1: 4.65 seconds
+ ... ... Species: Enterococcus faecium
+Time to get assembly id from ncbi code for WP_006121662.1: 0.65 seconds
+Time to find assembly ncbi code for WP_006121662.1: 0.65 seconds
+ ... WP_006121662.1 belongs to assembly GCF_008801695.1 (52/100)
+ ... ... Downloading and extracting assembly GCF_008801695.1 annotated gff file
+Time to download assembly GCF_008801695.1: 0.86 seconds
+ ... ... ... Downloaded assembly GCF_008801695.1 ....
+Time to extract assembly file GCF_008801695.1: 0.06 seconds
+Time to parse assembly GCF_008801695.1: 0.06 seconds
+ ... ... ... Finished parsing assembly GCF_008801695.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_008801695.1 (WP_006121662.1): 1.08 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_006121662.1
+ ... ... ... Found 8 flanking genes for WP_006121662.1
+Time to extract 8 flanking genes for WP_006121662.1 from GCF_008801695.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_006121662.1 from GCF_008801695.1: 4.67 seconds
+ ... ... Species: Pantoea stewartii
+Time to get assembly id from ncbi code for WP_020439301.1: 0.8 seconds
+Time to find assembly ncbi code for WP_020439301.1: 0.8 seconds
+ ... WP_020439301.1 belongs to assembly GCF_001590765.1 (53/100)
+ ... ... Downloading and extracting assembly GCF_001590765.1 annotated gff file
+Time to download assembly GCF_001590765.1: 0.85 seconds
+ ... ... ... Downloaded assembly GCF_001590765.1 ....
+Time to extract assembly file GCF_001590765.1: 0.05 seconds
+Time to parse assembly GCF_001590765.1: 0.21 seconds
+ ... ... ... Finished parsing assembly GCF_001590765.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_001590765.1 (WP_020439301.1): 1.22 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_020439301.1
+ ... ... ... Found 8 flanking genes for WP_020439301.1
+Time to extract 8 flanking genes for WP_020439301.1 from GCF_001590765.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_020439301.1 from GCF_001590765.1: 4.53 seconds
+ ... ... Species: Serratia plymuthica
+Time to get assembly id from ncbi code for WP_012770342.1: 0.67 seconds
+Time to find assembly ncbi code for WP_012770342.1: 0.67 seconds
+ ... WP_012770342.1 belongs to assembly GCF_037136815.1 (54/100)
+ ... ... Downloading and extracting assembly GCF_037136815.1 annotated gff file
+Time to download assembly GCF_037136815.1: 0.77 seconds
+ ... ... ... Downloaded assembly GCF_037136815.1 ....
+Time to extract assembly file GCF_037136815.1: 0.05 seconds
+Time to parse assembly GCF_037136815.1: 0.05 seconds
+ ... ... ... Finished parsing assembly GCF_037136815.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_037136815.1 (WP_012770342.1): 0.94 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_012770342.1
+ ... ... ... Found 8 flanking genes for WP_012770342.1
+Time to extract 8 flanking genes for WP_012770342.1 from GCF_037136815.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_012770342.1 from GCF_037136815.1: 4.54 seconds
+ ... ... Species: Dickeya chrysanthemi
+Time to get assembly id from ncbi code for WP_004166538.1: 0.78 seconds
+Time to find assembly ncbi code for WP_004166538.1: 0.78 seconds
+ ... WP_004166538.1 belongs to assembly GCF_001436795.1 (55/100)
+ ... ... Downloading and extracting assembly GCF_001436795.1 annotated gff file
+Time to download assembly GCF_001436795.1: 0.67 seconds
+ ... ... ... Downloaded assembly GCF_001436795.1 ....
+Time to extract assembly file GCF_001436795.1: 0.02 seconds
+Time to parse assembly GCF_001436795.1: 0.03 seconds
+ ... ... ... Finished parsing assembly GCF_001436795.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_001436795.1 (WP_004166538.1): 0.84 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_004166538.1
+ ... ... ... Found 8 flanking genes for WP_004166538.1
+Time to extract 8 flanking genes for WP_004166538.1 from GCF_001436795.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_004166538.1 from GCF_001436795.1: 5.02 seconds
+ ... ... Species: Pediococcus acidilactici
+Time to get assembly id from ncbi code for WP_013574938.1: 0.78 seconds
+Time to find assembly ncbi code for WP_013574938.1: 0.78 seconds
+ ... WP_013574938.1 belongs to assembly GCF_000187705.1 (56/100)
+ ... ... Downloading and extracting assembly GCF_000187705.1 annotated gff file
+Time to download assembly GCF_000187705.1: 0.85 seconds
+ ... ... ... Downloaded assembly GCF_000187705.1 ....
+Time to extract assembly file GCF_000187705.1: 0.05 seconds
+Time to parse assembly GCF_000187705.1: 0.02 seconds
+ ... ... ... Finished parsing assembly GCF_000187705.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_000187705.1 (WP_013574938.1): 1.01 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_013574938.1
+ ... ... ... Found 8 flanking genes for WP_013574938.1
+Time to extract 8 flanking genes for WP_013574938.1 from GCF_000187705.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_013574938.1 from GCF_000187705.1: 4.43 seconds
+ ... ... Species: Rahnella aceris
+Time to get assembly id from ncbi code for WP_070367577.1: 0.8 seconds
+Time to find assembly ncbi code for WP_070367577.1: 0.8 seconds
+ ... WP_070367577.1 belongs to assembly GCF_001766745.1 (57/100)
+ ... ... Downloading and extracting assembly GCF_001766745.1 annotated gff file
+Time to download assembly GCF_001766745.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCF_001766745.1 ....
+Time to extract assembly file GCF_001766745.1: 0.03 seconds
+Time to parse assembly GCF_001766745.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCF_001766745.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_001766745.1 (WP_070367577.1): 0.92 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_070367577.1
+ ... ... ... Found 8 flanking genes for WP_070367577.1
+Time to extract 8 flanking genes for WP_070367577.1 from GCF_001766745.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_070367577.1 from GCF_001766745.1: 4.49 seconds
+ ... ... Species: Lentilactobacillus sunkii
+Time to get assembly id from ncbi code for WP_000291547.1: 1.08 seconds
+Time to find assembly ncbi code for WP_000291547.1: 1.08 seconds
+ ... WP_000291547.1 belongs to assembly GCF_012062925.1 (58/100)
+ ... ... Downloading and extracting assembly GCF_012062925.1 annotated gff file
+Time to download assembly GCF_012062925.1: 0.85 seconds
+ ... ... ... Downloaded assembly GCF_012062925.1 ....
+Time to extract assembly file GCF_012062925.1: 0.05 seconds
+Time to parse assembly GCF_012062925.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCF_012062925.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_012062925.1 (WP_000291547.1): 0.99 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_000291547.1
+ ... ... ... Found 8 flanking genes for WP_000291547.1
+Time to extract 8 flanking genes for WP_000291547.1 from GCF_012062925.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_000291547.1 from GCF_012062925.1: 5.05 seconds
+ ... ... Species: Escherichia coli
+Time to get assembly id from ncbi code for WP_001313400.1: 1.31 seconds
+Time to find assembly ncbi code for WP_001313400.1: 1.31 seconds
+ ... WP_001313400.1 belongs to assembly GCF_013359985.1 (59/100)
+ ... ... Downloading and extracting assembly GCF_013359985.1 annotated gff file
+Time to download assembly GCF_013359985.1: 0.85 seconds
+ ... ... ... Downloaded assembly GCF_013359985.1 ....
+Time to extract assembly file GCF_013359985.1: 0.06 seconds
+Time to parse assembly GCF_013359985.1: 0.15 seconds
+ ... ... ... Finished parsing assembly GCF_013359985.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_013359985.1 (WP_001313400.1): 1.17 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_001313400.1
+ ... ... ... Found 8 flanking genes for WP_001313400.1
+Time to extract 8 flanking genes for WP_001313400.1 from GCF_013359985.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_001313400.1 from GCF_013359985.1: 4.7 seconds
+ ... ... Species: Enterobacteriaceae
+Time to get assembly id from ncbi code for WP_072833029.1: 0.66 seconds
+Time to find assembly ncbi code for WP_072833029.1: 0.66 seconds
+ ... WP_072833029.1 belongs to assembly GCF_001892205.1 (60/100)
+ ... ... Downloading and extracting assembly GCF_001892205.1 annotated gff file
+Time to download assembly GCF_001892205.1: 0.86 seconds
+ ... ... ... Downloaded assembly GCF_001892205.1 ....
+Time to extract assembly file GCF_001892205.1: 0.06 seconds
+Time to parse assembly GCF_001892205.1: 0.18 seconds
+ ... ... ... Finished parsing assembly GCF_001892205.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_001892205.1 (WP_072833029.1): 1.2 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_072833029.1
+ ... ... ... Found 8 flanking genes for WP_072833029.1
+Time to extract 8 flanking genes for WP_072833029.1 from GCF_001892205.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_072833029.1 from GCF_001892205.1: 4.75 seconds
+ ... ... Species: Escherichia coli
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_U1N0X1: 0.57 seconds
+Time to find assembly ncbi code for UniRef100_U1N0X1: 1.3 seconds
+
+ ... > There is no assembly for UniRef100_U1N0X1 (61/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_W9BCH3: 0.49 seconds
+Time to find assembly ncbi code for UniRef50_W9BCH3: 1.25 seconds
+
+ ... > There is no assembly for UniRef50_W9BCH3 (62/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_E3EIU6: 0.5 seconds
+Time to find assembly ncbi code for UniRef50_E3EIU6: 1.11 seconds
+
+ ... > There is no assembly for UniRef50_E3EIU6 (63/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_A7ML49: 0.5 seconds
+Time to find assembly ncbi code for UniRef50_A7ML49: 1.28 seconds
+
+ ... > There is no assembly for UniRef50_A7ML49 (64/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_I3I4H6: 0.5 seconds
+Time to find assembly ncbi code for UniRef100_I3I4H6: 1.29 seconds
+
+ ... > There is no assembly for UniRef100_I3I4H6 (65/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_P16552: 0.52 seconds
+Time to find assembly ncbi code for UniRef50_P16552: 1.15 seconds
+
+ ... > There is no assembly for UniRef50_P16552 (66/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_C9XXN2: 0.51 seconds
+Time to find assembly ncbi code for UniRef50_C9XXN2: 1.18 seconds
+
+ ... > There is no assembly for UniRef50_C9XXN2 (67/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef90_K7ZYB1: 0.5 seconds
+Time to find assembly ncbi code for UniRef90_K7ZYB1: 1.12 seconds
+
+ ... > There is no assembly for UniRef90_K7ZYB1 (68/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_A7Z937: 0.48 seconds
+Time to find assembly ncbi code for UniRef100_A7Z937: 1.14 seconds
+
+ ... > There is no assembly for UniRef100_A7Z937 (69/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_A0A0C7KCH0: 0.5 seconds
+Time to find assembly ncbi code for UniRef50_A0A0C7KCH0: 1.15 seconds
+
+ ... > There is no assembly for UniRef50_A0A0C7KCH0 (70/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_J1F361: 0.46 seconds
+Time to find assembly ncbi code for UniRef100_J1F361: 1.11 seconds
+
+ ... > There is no assembly for UniRef100_J1F361 (71/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_I0QML3: 0.52 seconds
+Time to find assembly ncbi code for UniRef100_I0QML3: 1.17 seconds
+
+ ... > There is no assembly for UniRef100_I0QML3 (72/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef90_J3A509: 0.49 seconds
+Time to find assembly ncbi code for UniRef90_J3A509: 1.24 seconds
+
+ ... > There is no assembly for UniRef90_J3A509 (73/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_A9MER2: 0.5 seconds
+Time to find assembly ncbi code for UniRef50_A9MER2: 1.29 seconds
+
+ ... > There is no assembly for UniRef50_A9MER2 (74/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef90_K6Y668: 0.49 seconds
+Time to find assembly ncbi code for UniRef90_K6Y668: 1.26 seconds
+
+ ... > There is no assembly for UniRef90_K6Y668 (75/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_A0A0M2F4Z0: 0.5 seconds
+Time to find assembly ncbi code for UniRef100_A0A0M2F4Z0: 1.28 seconds
+
+ ... > There is no assembly for UniRef100_A0A0M2F4Z0 (76/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_A0A0L7AG82: 0.5 seconds
+Time to find assembly ncbi code for UniRef100_A0A0L7AG82: 1.11 seconds
+
+ ... > There is no assembly for UniRef100_A0A0L7AG82 (77/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_A0A8T3L1L2: 0.47 seconds
+Time to find assembly ncbi code for UniRef100_A0A8T3L1L2: 1.13 seconds
+
+ ... > There is no assembly for UniRef100_A0A8T3L1L2 (78/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_A0AAE8CJK3: 0.47 seconds
+Time to find assembly ncbi code for UniRef100_A0AAE8CJK3: 1.12 seconds
+
+ ... > There is no assembly for UniRef100_A0AAE8CJK3 (79/100)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef90_A0A0L7TEX5: 0.49 seconds
+Time to find assembly ncbi code for UniRef90_A0A0L7TEX5: 1.14 seconds
+
+ ... > There is no assembly for UniRef90_A0A0L7TEX5 (80/100)
+
+Time to get assembly id from ncbi code for EFK22699.1: 1 second
+Time to find assembly ncbi code for EFK22699.1: 1 second
+ ... EFK22699.1 belongs to assembly GCA_000164355.1 (81/100)
+ ... ... Downloading and extracting assembly GCA_000164355.1 annotated gff file
+Time to download assembly GCA_000164355.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000164355.1 ....
+Time to extract assembly file GCA_000164355.1: 0.04 seconds
+Time to parse assembly GCA_000164355.1: 0.16 seconds
+ ... ... ... Finished parsing assembly GCA_000164355.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000164355.1 (EFK22699.1): 1.05 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EFK22699.1
+ ... ... ... Found 6 flanking genes for EFK22699.1
+Time to extract 8 flanking genes for EFK22699.1 from GCA_000164355.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for EFK22699.1 from GCA_000164355.1: 3.8 seconds
+ ... ... Species: Escherichia coli MS 21-1
+Time to get assembly id from ncbi code for AEX54717.1: 0.8 seconds
+Time to find assembly ncbi code for AEX54717.1: 0.8 seconds
+ ... AEX54717.1 belongs to assembly GCA_000241955.1 (82/100)
+ ... ... Downloading and extracting assembly GCA_000241955.1 annotated gff file
+Time to download assembly GCA_000241955.1: 0.77 seconds
+ ... ... ... Downloaded assembly GCA_000241955.1 ....
+Time to extract assembly file GCA_000241955.1: 0.05 seconds
+Time to parse assembly GCA_000241955.1: 0.14 seconds
+ ... ... ... Finished parsing assembly GCA_000241955.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000241955.1 (AEX54717.1): 1.06 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AEX54717.1
+ ... ... ... Found 8 flanking genes for AEX54717.1
+Time to extract 8 flanking genes for AEX54717.1 from GCA_000241955.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AEX54717.1 from GCA_000241955.1: 4.73 seconds
+ ... ... Species: Rahnella aquatilis CIP 78.65 = ATCC 33071
+Time to get assembly id from ncbi code for AGB81004.1: 0.65 seconds
+Time to find assembly ncbi code for AGB81004.1: 0.65 seconds
+ ... AGB81004.1 belongs to assembly GCA_000330865.1 (83/100)
+ ... ... Downloading and extracting assembly GCA_000330865.1 annotated gff file
+Time to download assembly GCA_000330865.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000330865.1 ....
+Time to extract assembly file GCA_000330865.1: 0.04 seconds
+Time to parse assembly GCA_000330865.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCA_000330865.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000330865.1 (AGB81004.1): 0.89 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AGB81004.1
+ ... ... ... Found 8 flanking genes for AGB81004.1
+Time to extract 8 flanking genes for AGB81004.1 from GCA_000330865.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AGB81004.1 from GCA_000330865.1: 6.15 seconds
+ ... ... Species: Serratia sp. FGI94
+Time to get assembly id from ncbi code for ADG39479.1: 0.65 seconds
+Time to find assembly ncbi code for ADG39479.1: 0.65 seconds
+ ... ADG39479.1 belongs to assembly GCA_000092505.1 (84/100)
+ ... ... Downloading and extracting assembly GCA_000092505.1 annotated gff file
+Time to download assembly GCA_000092505.1: 0.67 seconds
+ ... ... ... Downloaded assembly GCA_000092505.1 ....
+Time to extract assembly file GCA_000092505.1: 0.02 seconds
+Time to parse assembly GCA_000092505.1: 0.03 seconds
+ ... ... ... Finished parsing assembly GCA_000092505.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000092505.1 (ADG39479.1): 0.8 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of ADG39479.1
+ ... ... ... Found 7 flanking genes for ADG39479.1
+Time to extract 8 flanking genes for ADG39479.1 from GCA_000092505.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for ADG39479.1 from GCA_000092505.1: 4.09 seconds
+ ... ... Species: Leuconostoc kimchii IMSNU 11154
+Time to get assembly id from ncbi code for AAU25613.1: 0.85 seconds
+Time to find assembly ncbi code for AAU25613.1: 0.85 seconds
+ ... AAU25613.1 belongs to assembly GCA_000011645.1 (85/100)
+ ... ... Downloading and extracting assembly GCA_000011645.1 annotated gff file
+Time to download assembly GCA_000011645.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000011645.1 ....
+Time to extract assembly file GCA_000011645.1: 0.03 seconds
+Time to parse assembly GCA_000011645.1: 0.1 seconds
+ ... ... ... Finished parsing assembly GCA_000011645.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000011645.1 (AAU25613.1): 1.01 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AAU25613.1
+ ... ... ... Found 8 flanking genes for AAU25613.1
+Time to extract 8 flanking genes for AAU25613.1 from GCA_000011645.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AAU25613.1 from GCA_000011645.1: 6.24 seconds
+ ... ... Species: Bacillus licheniformis DSM 13 = ATCC 14580
+Time to get assembly id from ncbi code for AGK98652.1: 0.76 seconds
+Time to find assembly ncbi code for AGK98652.1: 0.76 seconds
+ ... AGK98652.1 belongs to assembly GCA_000389635.1 (86/100)
+ ... ... Downloading and extracting assembly GCA_000389635.1 annotated gff file
+Time to download assembly GCA_000389635.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000389635.1 ....
+Time to extract assembly file GCA_000389635.1: 0.04 seconds
+Time to parse assembly GCA_000389635.1: 0.08 seconds
+ ... ... ... Finished parsing assembly GCA_000389635.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000389635.1 (AGK98652.1): 0.98 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AGK98652.1
+ ... ... ... Found 8 flanking genes for AGK98652.1
+Time to extract 8 flanking genes for AGK98652.1 from GCA_000389635.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AGK98652.1 from GCA_000389635.1: 6.65 seconds
+ ... ... Species: Clostridium pasteurianum BC1
+Time to get assembly id from ncbi code for ACZ77400.1: 0.79 seconds
+Time to find assembly ncbi code for ACZ77400.1: 0.79 seconds
+ ... ACZ77400.1 belongs to assembly GCA_000025065.1 (87/100)
+ ... ... Downloading and extracting assembly GCA_000025065.1 annotated gff file
+Time to download assembly GCA_000025065.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000025065.1 ....
+Time to extract assembly file GCA_000025065.1: 0.04 seconds
+Time to parse assembly GCA_000025065.1: 0.05 seconds
+ ... ... ... Finished parsing assembly GCA_000025065.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000025065.1 (ACZ77400.1): 0.98 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of ACZ77400.1
+ ... ... ... Found 8 flanking genes for ACZ77400.1
+Time to extract 8 flanking genes for ACZ77400.1 from GCA_000025065.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for ACZ77400.1 from GCA_000025065.1: 6.56 seconds
+ ... ... Species: Dickeya parazeae Ech586
+Time to get assembly id from ncbi code for CCJ74421.1: 0.83 seconds
+Time to find assembly ncbi code for CCJ74421.1: 0.83 seconds
+ ... CCJ74421.1 belongs to assembly GCA_000319285.1 (88/100)
+ ... ... Downloading and extracting assembly GCA_000319285.1 annotated gff file
+Time to download assembly GCA_000319285.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000319285.1 ....
+Time to extract assembly file GCA_000319285.1: 0.03 seconds
+Time to parse assembly GCA_000319285.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCA_000319285.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000319285.1 (CCJ74421.1): 0.92 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of CCJ74421.1
+ ... ... ... Found 8 flanking genes for CCJ74421.1
+Time to extract 8 flanking genes for CCJ74421.1 from GCA_000319285.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for CCJ74421.1 from GCA_000319285.1: 4.97 seconds
+ ... ... Species: Cronobacter condimenti 1330
+Time to get assembly id from ncbi code for EUK18068.1: 0.65 seconds
+Time to find assembly ncbi code for EUK18068.1: 0.65 seconds
+ ... EUK18068.1 belongs to assembly GCA_000527695.1 (89/100)
+ ... ... Downloading and extracting assembly GCA_000527695.1 annotated gff file
+Time to download assembly GCA_000527695.1: 0.67 seconds
+ ... ... ... Downloaded assembly GCA_000527695.1 ....
+Time to extract assembly file GCA_000527695.1: 0.02 seconds
+Time to parse assembly GCA_000527695.1: 0.02 seconds
+ ... ... ... Finished parsing assembly GCA_000527695.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000527695.1 (EUK18068.1): 0.83 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EUK18068.1
+ ... ... ... Found 8 flanking genes for EUK18068.1
+Time to extract 8 flanking genes for EUK18068.1 from GCA_000527695.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for EUK18068.1 from GCA_000527695.1: 4.63 seconds
+ ... ... Species: Commensalibacter papalotli (ex Servin-Garciduenas et al. 2014)
+Time to get assembly id from ncbi code for EHD21217.1: 0.76 seconds
+Time to find assembly ncbi code for EHD21217.1: 0.76 seconds
+ ... EHD21217.1 belongs to assembly GCA_000225565.1 (90/100)
+ ... ... Downloading and extracting assembly GCA_000225565.1 annotated gff file
+Time to download assembly GCA_000225565.1: 0.87 seconds
+ ... ... ... Downloaded assembly GCA_000225565.1 ....
+Time to extract assembly file GCA_000225565.1: 0.05 seconds
+Time to parse assembly GCA_000225565.1: 0.03 seconds
+ ... ... ... Finished parsing assembly GCA_000225565.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000225565.1 (EHD21217.1): 1.07 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EHD21217.1
+ ... ... ... Found 8 flanking genes for EHD21217.1
+Time to extract 8 flanking genes for EHD21217.1 from GCA_000225565.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for EHD21217.1 from GCA_000225565.1: 8.4 seconds
+ ... ... Species: Brenneria sp. EniD312
+Time to get assembly id from ncbi code for ACS85132.1: 0.64 seconds
+Time to find assembly ncbi code for ACS85132.1: 0.64 seconds
+ ... ACS85132.1 belongs to assembly GCA_000023545.1 (91/100)
+ ... ... Downloading and extracting assembly GCA_000023545.1 annotated gff file
+Time to download assembly GCA_000023545.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000023545.1 ....
+Time to extract assembly file GCA_000023545.1: 0.04 seconds
+Time to parse assembly GCA_000023545.1: 0.02 seconds
+ ... ... ... Finished parsing assembly GCA_000023545.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000023545.1 (ACS85132.1): 0.91 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of ACS85132.1
+ ... ... ... Found 8 flanking genes for ACS85132.1
+Time to extract 8 flanking genes for ACS85132.1 from GCA_000023545.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for ACS85132.1 from GCA_000023545.1: 7.29 seconds
+ ... ... Species: Musicola paradisiaca Ech703
+Time to get assembly id from ncbi code for GAC24184.1: 0.79 seconds
+Time to find assembly ncbi code for GAC24184.1: 0.79 seconds
+ ... GAC24184.1 belongs to assembly GCA_000315015.1 (92/100)
+ ... ... Downloading and extracting assembly GCA_000315015.1 annotated gff file
+Time to download assembly GCA_000315015.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000315015.1 ....
+Time to extract assembly file GCA_000315015.1: 0.03 seconds
+Time to parse assembly GCA_000315015.1: 0.05 seconds
+ ... ... ... Finished parsing assembly GCA_000315015.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000315015.1 (GAC24184.1): 0.93 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of GAC24184.1
+ ... ... ... Found 8 flanking genes for GAC24184.1
+Time to extract 8 flanking genes for GAC24184.1 from GCA_000315015.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for GAC24184.1 from GCA_000315015.1: 4.54 seconds
+ ... ... Species: Paraglaciecola mesophila KMM 241
+Time to get assembly id from ncbi code for EWG74888.1: 0.79 seconds
+Time to find assembly ncbi code for EWG74888.1: 0.79 seconds
+ ... EWG74888.1 belongs to assembly GCA_000568095.1 (93/100)
+ ... ... Downloading and extracting assembly GCA_000568095.1 annotated gff file
+Time to download assembly GCA_000568095.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000568095.1 ....
+Time to extract assembly file GCA_000568095.1: 0.04 seconds
+Time to parse assembly GCA_000568095.1: 0.04 seconds
+ ... ... ... Finished parsing assembly GCA_000568095.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000568095.1 (EWG74888.1): 0.95 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EWG74888.1
+ ... ... ... Found 8 flanking genes for EWG74888.1
+Time to extract 8 flanking genes for EWG74888.1 from GCA_000568095.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for EWG74888.1 from GCA_000568095.1: 4.72 seconds
+ ... ... Species: Enterobacter sp. DC4
+Time to get assembly id from ncbi code for AHF73891.1: 0.66 seconds
+Time to find assembly ncbi code for AHF73891.1: 0.66 seconds
+ ... AHF73891.1 belongs to assembly GCA_000517405.1 (94/100)
+ ... ... Downloading and extracting assembly GCA_000517405.1 annotated gff file
+Time to download assembly GCA_000517405.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000517405.1 ....
+Time to extract assembly file GCA_000517405.1: 0.04 seconds
+Time to parse assembly GCA_000517405.1: 0.03 seconds
+ ... ... ... Finished parsing assembly GCA_000517405.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000517405.1 (AHF73891.1): 0.94 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AHF73891.1
+ ... ... ... Found 8 flanking genes for AHF73891.1
+Time to extract 8 flanking genes for AHF73891.1 from GCA_000517405.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AHF73891.1 from GCA_000517405.1: 5.2 seconds
+ ... ... Species: Candidatus Sodalis pierantonius str. SOPE
+Time to get assembly id from ncbi code for OIZ68276.1: 0.9 seconds
+Time to find assembly ncbi code for OIZ68276.1: 0.9 seconds
+ ... OIZ68276.1 belongs to assembly GCA_001881515.1 (95/100)
+ ... ... Downloading and extracting assembly GCA_001881515.1 annotated gff file
+Time to download assembly GCA_001881515.1: 0.78 seconds
+ ... ... ... Downloaded assembly GCA_001881515.1 ....
+Time to extract assembly file GCA_001881515.1: 0.08 seconds
+Time to parse assembly GCA_001881515.1: 0.05 seconds
+ ... ... ... Finished parsing assembly GCA_001881515.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_001881515.1 (OIZ68276.1): 1 second
+ ... ... Extracting 8 flanking genes (4 to each side) of OIZ68276.1
+ ... ... ... Found 8 flanking genes for OIZ68276.1
+Time to extract 8 flanking genes for OIZ68276.1 from GCA_001881515.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for OIZ68276.1 from GCA_001881515.1: 4.68 seconds
+ ... ... Species: Escherichia coli
+Time to get assembly id from ncbi code for ADW71651.1: 0.85 seconds
+Time to find assembly ncbi code for ADW71651.1: 0.85 seconds
+ ... ADW71651.1 belongs to assembly GCA_000187705.1 (96/100)
+ ... ... Downloading and extracting assembly GCA_000187705.1 annotated gff file
+Time to download assembly GCA_000187705.1: 0.85 seconds
+ ... ... ... Downloaded assembly GCA_000187705.1 ....
+Time to extract assembly file GCA_000187705.1: 0.05 seconds
+Time to parse assembly GCA_000187705.1: 0 seconds
+ ... ... ... Finished parsing assembly GCA_000187705.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000187705.1 (ADW71651.1): 0.99 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of ADW71651.1
+ ... ... ... Found 8 flanking genes for ADW71651.1
+Time to extract 8 flanking genes for ADW71651.1 from GCA_000187705.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for ADW71651.1 from GCA_000187705.1: 6.65 seconds
+ ... ... Species: Rahnella aceris
+Time to get assembly id from ncbi code for ADW75107.1: 0.8 seconds
+Time to find assembly ncbi code for ADW75107.1: 0.8 seconds
+ ... ADW75107.1 belongs to assembly GCA_000187705.1 (97/100)
+ ... ... Downloading and extracting assembly GCA_000187705.1 annotated gff file
+ ... ... ... Downloaded assembly GCA_000187705.1 ....
+Time to extract assembly file GCA_000187705.1: 0 seconds
+Time to parse assembly GCA_000187705.1: 0.09 seconds
+ ... ... ... Finished parsing assembly GCA_000187705.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000187705.1 (ADW75107.1): 0.16 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of ADW75107.1
+ ... ... ... Found 8 flanking genes for ADW75107.1
+Time to extract 8 flanking genes for ADW75107.1 from GCA_000187705.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for ADW75107.1 from GCA_000187705.1: 6.49 seconds
+ ... ... Species: Rahnella aceris
+Time to get assembly id from ncbi code for KGA35409.1: 0.81 seconds
+Time to find assembly ncbi code for KGA35409.1: 0.81 seconds
+ ... KGA35409.1 belongs to assembly GCA_000754705.1 (98/100)
+ ... ... Downloading and extracting assembly GCA_000754705.1 annotated gff file
+Time to download assembly GCA_000754705.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_000754705.1 ....
+Time to extract assembly file GCA_000754705.1: 0.04 seconds
+Time to parse assembly GCA_000754705.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCA_000754705.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000754705.1 (KGA35409.1): 0.93 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of KGA35409.1
+ ... ... ... Found 8 flanking genes for KGA35409.1
+Time to extract 8 flanking genes for KGA35409.1 from GCA_000754705.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for KGA35409.1 from GCA_000754705.1: 6.34 seconds
+ ... ... Species: Pectobacterium brasiliense
+Time to get assembly id from ncbi code for SEE95312.1: 0.65 seconds
+Time to find assembly ncbi code for SEE95312.1: 0.65 seconds
+ ... SEE95312.1 belongs to assembly GCA_900106095.1 (99/100)
+ ... ... Downloading and extracting assembly GCA_900106095.1 annotated gff file
+Time to download assembly GCA_900106095.1: 0.83 seconds
+ ... ... ... Downloaded assembly GCA_900106095.1 ....
+Time to extract assembly file GCA_900106095.1: 0.04 seconds
+Time to parse assembly GCA_900106095.1: 0.06 seconds
+ ... ... ... Finished parsing assembly GCA_900106095.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_900106095.1 (SEE95312.1): 1.04 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of SEE95312.1
+ ... ... ... Found 8 flanking genes for SEE95312.1
+Time to extract 8 flanking genes for SEE95312.1 from GCA_900106095.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for SEE95312.1 from GCA_900106095.1: 6.44 seconds
+ ... ... Species: Pseudomonas deceptionensis
+Time to get assembly id from ncbi code for KPD02558.1: 0.66 seconds
+Time to find assembly ncbi code for KPD02558.1: 0.66 seconds
+ ... KPD02558.1 belongs to assembly GCA_001294465.1 (100/100)
+ ... ... Downloading and extracting assembly GCA_001294465.1 annotated gff file
+Time to download assembly GCA_001294465.1: 0.76 seconds
+ ... ... ... Downloaded assembly GCA_001294465.1 ....
+Time to extract assembly file GCA_001294465.1: 0.03 seconds
+Time to parse assembly GCA_001294465.1: 0.02 seconds
+ ... ... ... Finished parsing assembly GCA_001294465.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_001294465.1 (KPD02558.1): 0.93 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of KPD02558.1
+ ... ... ... Found 8 flanking genes for KPD02558.1
+Time to extract 8 flanking genes for KPD02558.1 from GCA_001294465.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for KPD02558.1 from GCA_001294465.1: 4.81 seconds
+ ... ... Species: Moellerella wisconsensis ATCC 35017
+Time to collect all genomic context: 3 minutes and 56.97 seconds
+Time to run step 1: 3 minutes and 56.98 seconds
+
+ 2. Finding protein families (may take some time depending on the number of flanking sequences taken)
+
+ ... Doing all against all searches with mmseqs
+ ... ... Running MMseqs
+ ... ... Computing sequences similarity matrix
+Time to compute all agains all distance matrix using mmseqs: 15.5 seconds
+Time to find clusters in distance matrix: 0 seconds
+Time to find clusters in distance matrix using mmseqs: 0 seconds
+Time to mask_singleton_clusters using mmseqs: 0 seconds
+ ... Assigning families
+Time to assign families: 0.01 seconds
+ ... Found 66 conserved protein families, 8 pseudogenes and 188 non-conserved protein coding regions
+Time to get protein families summary: 0 seconds
+Time to find and add protein families using mmseqs: 15.53 seconds
+Time run step 2: 15.53 seconds
+
+ 3. Neither functions will be annotated, neither structures will be searched
+
+
+ 4. Finding operon/genomic_context types
+
+ ... Using mode Advanced? False
+Time to find clusters in distance matrix: 0 seconds
+Time to find operon types in standard mode: 0.02 seconds
+ ... Found 41 operon types (out of a total of 60 input targets)
+Time to get operon types summary: 0 seconds
+Time run step 4: 0.02 seconds
+
+ 5. Selecting top 30 most common operon/genomic_context types
+
+ ... Selected 31 operon/genomic_context types, with most populated corresponding to GC Type 00011
+Time run step 5: 0.01 seconds
+
+ 6. Mapping taxonomy (may take some time)
+
+Time run step 6: 0.01 seconds
+
+ 7. Finding ALL proteins with transmembrane segments and signal peptides
+
+Time run step 7 using uniprot: 0.63 seconds
+
+ 8. Making operon/genomic_context blocks figure
+
+Time run step 8: 3.27 seconds
+
+ 9. Making interactive html output file
+
+Time run step 9 (operon cluster advanced mode: False): 1.27 seconds
+
+ Finished target_sequences_100: Writting summary table
+
+Time run step 9 (operon cluster advanced mode: False): 0.02 seconds
+
+#### Finished target_sequences_100 after: 00 hours 04 min 17 sec 
+
+Time to run steps 1-9: 4 minutes and 17.73 seconds
+Time to run main: 4 minutes and 24.15 seconds

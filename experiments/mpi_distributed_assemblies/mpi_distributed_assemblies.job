@@ -1,0 +1,21 @@
+#!/bin/sh
+#SBATCH --time=00:30:00
+#SBATCH --partition=xeon
+#SBATCH --hint=nomultithread
+#SBATCH --exclusive
+
+## working with conda
+## when testing we had no problem with gcc=6.3.0 and OpenMPI=2.0.2
+# conda create --name dask -c conda-forge python=3.11
+# conda activate dask
+# pip install "dask[complete]==2024.7.1"
+# pip install "dask-jobqueue==0.8.5 "
+# pip install "mpi4py==4.0.0 "
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate dask
+
+## call the python script
+#python -m mpi4py.futures ${exp_path}mpi_distributed_assembly_parsing.py ${n_targets} ${nodes} ${ranks_per_node} ${repetition} ${result_path}
+srun python -m mpi4py.futures ${exp_path}mpi_distributed_assembly_parsing.py ${n_targets} ${nodes} ${ranks_per_node} ${repetition} ${result_path}
+# --mpi=pmi2 

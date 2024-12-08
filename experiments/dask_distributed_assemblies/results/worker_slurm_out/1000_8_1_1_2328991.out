@@ -1,0 +1,43 @@
+2024-08-09 04:23:58,048 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.10:32922'
+2024-08-09 04:23:58,762 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/scheduler-l8ojtsoi', purging
+2024-08-09 04:23:58,762 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-jk9y4ffh', purging
+2024-08-09 04:23:58,762 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-bip2rcz6', purging
+2024-08-09 04:23:58,762 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-lfdw703s', purging
+2024-08-09 04:23:58,763 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-yvrhqrdr', purging
+2024-08-09 04:23:59,483 - distributed.worker - INFO -       Start worker at:    tcp://10.34.59.10:37114
+2024-08-09 04:23:59,483 - distributed.worker - INFO -          Listening to:    tcp://10.34.59.10:37114
+2024-08-09 04:23:59,483 - distributed.worker - INFO -           Worker name:             SLURMCluster-7
+2024-08-09 04:23:59,483 - distributed.worker - INFO -          dashboard at:          10.34.59.10:32774
+2024-08-09 04:23:59,484 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:41786
+2024-08-09 04:23:59,484 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:23:59,484 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:23:59,484 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:23:59,484 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-69byy409
+2024-08-09 04:23:59,484 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:24:01,060 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:24:01,061 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:41786
+2024-08-09 04:24:01,061 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:24:01,061 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:41786
+slurmstepd: error: *** JOB 2328991 ON cl-node010 CANCELLED AT 2024-08-09T04:24:06 ***
+2024-08-09 04:24:06,083 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.10:37114. Reason: scheduler-close
+2024-08-09 04:24:06,084 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.10:32988 remote=tcp://10.34.59.1:41786>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.10:32988 remote=tcp://10.34.59.1:41786>: Stream is closed
+2024-08-09 04:24:06,087 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.10:32922'. Reason: scheduler-close
+2024-08-09 04:24:06,088 - distributed.core - INFO - Received 'close-stream' from tcp://10.34.59.1:41786; closing.
+2024-08-09 04:24:06,089 - distributed.nanny - INFO - Worker closed

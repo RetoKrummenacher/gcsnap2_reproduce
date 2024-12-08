@@ -1,0 +1,17 @@
+2024-08-09 06:40:16,681 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.10:43888'
+2024-08-09 06:40:17,277 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-s1tj_f8z', purging
+2024-08-09 06:40:17,759 - distributed.worker - INFO -       Start worker at:    tcp://10.34.59.10:45044
+2024-08-09 06:40:17,759 - distributed.worker - INFO -          Listening to:    tcp://10.34.59.10:45044
+2024-08-09 06:40:17,759 - distributed.worker - INFO -           Worker name:             SLURMCluster-7
+2024-08-09 06:40:17,759 - distributed.worker - INFO -          dashboard at:          10.34.59.10:36785
+2024-08-09 06:40:17,759 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45480
+2024-08-09 06:40:17,759 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 06:40:17,759 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 06:40:17,759 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 06:40:17,759 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-lcmgidwr
+2024-08-09 06:40:17,760 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 06:40:18,116 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 06:40:18,117 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45480
+2024-08-09 06:40:18,117 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 06:40:18,117 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45480
+slurmstepd: error: *** JOB 2330805 ON cl-node010 CANCELLED AT 2024-08-09T06:40:29 ***

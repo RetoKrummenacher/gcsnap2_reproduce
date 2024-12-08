@@ -1,0 +1,278 @@
+/users/stud/k/kruret00/MT/GCsnap
+
+Downloading and parsing RefSeq and Genbank summary tables
+
+ ... Taking care of genbank summary table
+ ... ... Summary table already exists (version from: Tue Jul 16 08:39:12 2024)
+ ... ... Parsing summary table
+Time for parsing genbank: 5.23 seconds
+ ... ... Done parsing
+ ... Taking care of refseq summary table
+ ... ... Summary table already exists (version from: Tue Jul 16 08:39:14 2024)
+ ... ... Parsing summary table
+Time for parsing refseq: 0.92 seconds
+ ... ... Done parsing
+Time to download and parse refseq and gb databases: 6.16 seconds
+
+Parsing targets
+
+ ... Found 1 jobs to do: ['target_sequences_10']
+Time to parse targets: 0 seconds
+Time to run step 1: 0 seconds
+
+Working on job 'target_sequences_10'
+
+ 1. Collecting the genomic contexts of 10 unique input entrezIDs (may take some time)
+
+Fetched: 1 / 1
+ ... R8WYQ6_9ENTR corresponds to EOQ49953.1 in EMBL-GenBank-DDBJ_CDS database
+Time to map uniprot id to ncbi code for R8WYQ6_9ENTR: 0.32 seconds
+Time to get assembly id from ncbi code for EOQ49953.1: 0.87 seconds
+Time to find assembly ncbi code for R8WYQ6_9ENTR: 1.2 seconds
+ ... R8WYQ6_9ENTR belongs to assembly GCA_000398845.1 (1/10)
+ ... ... Downloading and extracting assembly GCA_000398845.1 annotated gff file
+Time to download assembly GCA_000398845.1: 0.89 seconds
+ ... ... ... Downloaded assembly GCA_000398845.1 ....
+Time to extract assembly file GCA_000398845.1: 0.03 seconds
+Time to parse assembly GCA_000398845.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCA_000398845.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000398845.1 (R8WYQ6_9ENTR): 1.02 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EOQ49953.1
+ ... ... ... Found 8 flanking genes for EOQ49953.1
+Time to extract 8 flanking genes for R8WYQ6_9ENTR from GCA_000398845.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for R8WYQ6_9ENTR from GCA_000398845.1: 5.13 seconds
+ ... ... Species: Citrobacter sp. KTE151
+Fetched: 1 / 1
+ ... Q6D966_PECAS corresponds to CAG73667.1 in EMBL-GenBank-DDBJ_CDS database
+Time to map uniprot id to ncbi code for Q6D966_PECAS: 0.78 seconds
+Time to get assembly id from ncbi code for CAG73667.1: 0.77 seconds
+Time to find assembly ncbi code for Q6D966_PECAS: 1.55 seconds
+ ... Q6D966_PECAS belongs to assembly GCA_000011605.1 (2/10)
+ ... ... Downloading and extracting assembly GCA_000011605.1 annotated gff file
+Time to download assembly GCA_000011605.1: 1.05 seconds
+ ... ... ... Downloaded assembly GCA_000011605.1 ....
+Time to extract assembly file GCA_000011605.1: 0.1 seconds
+Time to parse assembly GCA_000011605.1: 0.01 seconds
+ ... ... ... Finished parsing assembly GCA_000011605.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000011605.1 (Q6D966_PECAS): 1.26 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of CAG73667.1
+ ... ... ... Found 8 flanking genes for CAG73667.1
+Time to extract 8 flanking genes for Q6D966_PECAS from GCA_000011605.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for Q6D966_PECAS from GCA_000011605.1: 8.09 seconds
+ ... ... Species: Pectobacterium atrosepticum SCRI1043
+Fetched: 1 / 1
+Fetched: 0 / 0
+Fetched: 1 / 1
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for 57208299: 1.1 seconds
+Time to find assembly ncbi code for 57208299: 1.77 seconds
+
+ ... > There is no assembly for 57208299 (3/10)
+
+Fetched: 1 / 1
+Fetched: 0 / 0
+Fetched: 1 / 1
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for 9733087: 1.08 seconds
+Time to find assembly ncbi code for 9733087: 1.83 seconds
+
+ ... > There is no assembly for 9733087 (4/10)
+
+Time to get assembly id from ncbi code for WP_008915955.1: 0.66 seconds
+Time to find assembly ncbi code for WP_008915955.1: 0.66 seconds
+ ... WP_008915955.1 belongs to assembly GCF_000314895.2 (5/10)
+ ... ... Downloading and extracting assembly GCF_000314895.2 annotated gff file
+Time to download assembly GCF_000314895.2: 0.76 seconds
+ ... ... ... Downloaded assembly GCF_000314895.2 ....
+Time to extract assembly file GCF_000314895.2: 0.04 seconds
+Time to parse assembly GCF_000314895.2: 0.04 seconds
+ ... ... ... Finished parsing assembly GCF_000314895.2 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_000314895.2 (WP_008915955.1): 0.92 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_008915955.1
+ ... ... ... Found 8 flanking genes for WP_008915955.1
+Time to extract 8 flanking genes for WP_008915955.1 from GCF_000314895.2: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_008915955.1 from GCF_000314895.2: 4.58 seconds
+ ... ... Species: Providencia sneebia
+Time to get assembly id from ncbi code for WP_001538355.1: 0.97 seconds
+Time to find assembly ncbi code for WP_001538355.1: 0.97 seconds
+ ... WP_001538355.1 belongs to assembly GCF_010590175.1 (6/10)
+ ... ... Downloading and extracting assembly GCF_010590175.1 annotated gff file
+Time to download assembly GCF_010590175.1: 0.87 seconds
+ ... ... ... Downloaded assembly GCF_010590175.1 ....
+Time to extract assembly file GCF_010590175.1: 0.06 seconds
+Time to parse assembly GCF_010590175.1: 0.21 seconds
+ ... ... ... Finished parsing assembly GCF_010590175.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCF_010590175.1 (WP_001538355.1): 1.25 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of WP_001538355.1
+ ... ... ... Found 7 flanking genes for WP_001538355.1
+Time to extract 8 flanking genes for WP_001538355.1 from GCF_010590175.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for WP_001538355.1 from GCF_010590175.1: 4.13 seconds
+ ... ... Species: Escherichia
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef100_U1N0X1: 0.58 seconds
+Time to find assembly ncbi code for UniRef100_U1N0X1: 1.22 seconds
+
+ ... > There is no assembly for UniRef100_U1N0X1 (7/10)
+
+Fetched: 0 / 0
+Fetched: 0 / 0
+Time to map uniprot id to ncbi code for UniRef50_W9BCH3: 0.5 seconds
+Time to find assembly ncbi code for UniRef50_W9BCH3: 1.13 seconds
+
+ ... > There is no assembly for UniRef50_W9BCH3 (8/10)
+
+Time to get assembly id from ncbi code for EFK22699.1: 1.37 seconds
+Time to find assembly ncbi code for EFK22699.1: 1.37 seconds
+ ... EFK22699.1 belongs to assembly GCA_000164355.1 (9/10)
+ ... ... Downloading and extracting assembly GCA_000164355.1 annotated gff file
+Time to download assembly GCA_000164355.1: 0.78 seconds
+ ... ... ... Downloaded assembly GCA_000164355.1 ....
+Time to extract assembly file GCA_000164355.1: 0.04 seconds
+Time to parse assembly GCA_000164355.1: 0.16 seconds
+ ... ... ... Finished parsing assembly GCA_000164355.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000164355.1 (EFK22699.1): 1.1 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of EFK22699.1
+ ... ... ... Found 6 flanking genes for EFK22699.1
+Time to extract 8 flanking genes for EFK22699.1 from GCA_000164355.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for EFK22699.1 from GCA_000164355.1: 4.15 seconds
+ ... ... Species: Escherichia coli MS 21-1
+Time to get assembly id from ncbi code for AEX54717.1: 0.64 seconds
+Time to find assembly ncbi code for AEX54717.1: 0.64 seconds
+ ... AEX54717.1 belongs to assembly GCA_000241955.1 (10/10)
+ ... ... Downloading and extracting assembly GCA_000241955.1 annotated gff file
+Time to download assembly GCA_000241955.1: 0.87 seconds
+ ... ... ... Downloaded assembly GCA_000241955.1 ....
+Time to extract assembly file GCA_000241955.1: 0.05 seconds
+Time to parse assembly GCA_000241955.1: 0.15 seconds
+ ... ... ... Finished parsing assembly GCA_000241955.1 and collected 17 CDS entries around the target
+Time to download and extract assembly GCA_000241955.1 (AEX54717.1): 1.15 seconds
+ ... ... Extracting 8 flanking genes (4 to each side) of AEX54717.1
+ ... ... ... Found 8 flanking genes for AEX54717.1
+Time to extract 8 flanking genes for AEX54717.1 from GCA_000241955.1: 0 seconds
+ ... ... Collecting sequences for flanking proteins
+Time to add_sequences_to_flanking_genes for AEX54717.1 from GCA_000241955.1: 4.53 seconds
+ ... ... Species: Rahnella aquatilis CIP 78.65 = ATCC 33071
+Time to collect all genomic context: 49.67 seconds
+Time to run step 1: 49.68 seconds
+
+ 2. Finding protein families (may take some time depending on the number of flanking sequences taken)
+
+ ... Doing all against all searches with mmseqs
+ ... ... Running MMseqs
+ ... ... Computing sequences similarity matrix
+Time to compute all agains all distance matrix using mmseqs: 4.3 seconds
+Time to find clusters in distance matrix: 0 seconds
+Time to find clusters in distance matrix using mmseqs: 0 seconds
+Time to mask_singleton_clusters using mmseqs: 0 seconds
+ ... Assigning families
+Time to assign families: 0 seconds
+ ... Found 5 conserved protein families, 1 pseudogenes and 33 non-conserved protein coding regions
+Time to get protein families summary: 0 seconds
+Time to find and add protein families using mmseqs: 4.3 seconds
+Time run step 2: 4.3 seconds
+
+ 3. Neither functions will be annotated, neither structures will be searched
+
+
+ 4. Finding operon/genomic_context types
+
+ ... Using mode Advanced? False
+Time to find clusters in distance matrix: 0 seconds
+Time to find operon types in standard mode: 0 seconds
+ ... Found 6 operon types (out of a total of 6 input targets)
+Time to get operon types summary: 0 seconds
+Time run step 4: 0 seconds
+
+ 5. Selecting top 30 most common operon/genomic_context types
+
+ ... Selected 6 operon/genomic_context types, with most populated corresponding to GC Type 00001
+Time run step 5: 0.01 seconds
+
+ 6. Mapping taxonomy (may take some time)
+
+Time to map taxonomy for EOQ49953.1: 0.66 seconds
+Time to map taxonomy for CAG73667.1: 0.37 seconds
+Time to map taxonomy for WP_008915955.1: 0.48 seconds
+Time to map taxonomy for WP_001538355.1: 0.45 seconds
+Time to map taxonomy for EFK22699.1: 0.46 seconds
+Time to map taxonomy for AEX54717.1: 0.43 seconds
+Time run step 6: 2.85 seconds
+
+ 7. Finding ALL proteins with transmembrane segments and signal peptides
+
+Fetched: 30 / 30
+Fetched: 27 / 27
+Time to get uniprot tm annotation for EOQ49957.1: 0.14 seconds
+Time to get uniprot tm annotation for EOQ49956.1: 0.13 seconds
+Time to get uniprot tm annotation for EOQ49955.1: 0.12 seconds
+Time to get uniprot tm annotation for EOQ49954.1: 0.15 seconds
+Time to get uniprot tm annotation for EOQ49953.1: 0.13 seconds
+Time to get uniprot tm annotation for EOQ49952.1: 0.13 seconds
+Time to get uniprot tm annotation for EOQ49951.1: 0.13 seconds
+Time to get uniprot tm annotation for EOQ49950.1: 0.14 seconds
+Time to get uniprot tm annotation for EOQ49949.1: 0.68 seconds
+Time to get uniprot tm annotation for CAG73671.1: 0.14 seconds
+Time to get uniprot tm annotation for CAG73670.1: 0.12 seconds
+Time to get uniprot tm annotation for CAG73669.1: 0.19 seconds
+Time to get uniprot tm annotation for CAG73668.1: 0.61 seconds
+Time to get uniprot tm annotation for CAG73667.1: 0.14 seconds
+Time to get uniprot tm annotation for CAG73666.1: 0.12 seconds
+Time to get uniprot tm annotation for CAG73665.1: 0.12 seconds
+Time to get uniprot tm annotation for CAG73664.1: 0.45 seconds
+Time to get uniprot tm annotation for CAG73663.1: 0.14 seconds
+Time to get uniprot tm annotation for WP_008915959.1: 0.17 seconds
+Time to get uniprot tm annotation for WP_008915958.1: 0.32 seconds
+Time to get uniprot tm annotation for WP_008915957.1: 0 seconds
+Time to get uniprot tm annotation for WP_008915956.1: 0 seconds
+Time to get uniprot tm annotation for WP_008915955.1: 0.46 seconds
+Time to get uniprot tm annotation for WP_008915954.1: 0.12 seconds
+Time to get uniprot tm annotation for WP_008915953.1: 0.16 seconds
+Time to get uniprot tm annotation for WP_008915952.1: 0.19 seconds
+Time to get uniprot tm annotation for WP_008915951.1: 0.45 seconds
+Time to get uniprot tm annotation for WP_001538358.1: 0.13 seconds
+Time to get uniprot tm annotation for WP_024186801.1: 0 seconds
+Time to get uniprot tm annotation for WP_001538356.1: 0.15 seconds
+Time to get uniprot tm annotation for WP_001538355.1: 0.13 seconds
+Time to get uniprot tm annotation for WP_024186800.1: 0 seconds
+Time to get uniprot tm annotation for WP_001538353.1: 0.68 seconds
+Time to get uniprot tm annotation for WP_000076233.1: 0.13 seconds
+Time to get uniprot tm annotation for EFK22711.1: 0 seconds
+Time to get uniprot tm annotation for EFK22712.1: 0 seconds
+Time to get uniprot tm annotation for EFK22713.1: 0 seconds
+Time to get uniprot tm annotation for EFK22698.1: 0 seconds
+Time to get uniprot tm annotation for EFK22699.1: 0 seconds
+Time to get uniprot tm annotation for EFK22700.1: 0 seconds
+Time to get uniprot tm annotation for EFK22701.1: 0 seconds
+Time to get uniprot tm annotation for AEX54713.1: 0.15 seconds
+Time to get uniprot tm annotation for AEX54714.1: 0.12 seconds
+Time to get uniprot tm annotation for AEX54715.1: 0.57 seconds
+Time to get uniprot tm annotation for AEX54716.1: 0.12 seconds
+Time to get uniprot tm annotation for AEX54717.1: 0.13 seconds
+Time to get uniprot tm annotation for AEX54718.1: 0.13 seconds
+Time to get uniprot tm annotation for AEX54719.1: 0.6 seconds
+Time to get uniprot tm annotation for AEX54720.1: 0.13 seconds
+Time to get uniprot tm annotation for AEX54721.1: 0.13 seconds
+Time run step 7 using uniprot: 9.91 seconds
+
+ 8. Making operon/genomic_context blocks figure
+
+Time run step 8: 0.6 seconds
+
+ 9. Making interactive html output file
+
+Time run step 9 (operon cluster advanced mode: False): 0.44 seconds
+
+ Finished target_sequences_10: Writting summary table
+
+Time run step 9 (operon cluster advanced mode: False): 0.01 seconds
+
+#### Finished target_sequences_10 after: 00 hours 01 min 07 sec 
+
+Time to run steps 1-9: 1 minute and 7.8 seconds
+Time to run main: 1 minute and 14.19 seconds

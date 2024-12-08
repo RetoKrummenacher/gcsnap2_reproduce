@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/users/stud/k/kruret00/miniconda3/envs/dask/lib/python3.11/site-packages/mpi4py/futures/__main__.py", line 76, in <module>
+    main()
+  File "/users/stud/k/kruret00/miniconda3/envs/dask/lib/python3.11/site-packages/mpi4py/futures/__main__.py", line 61, in main
+    run_command_line()
+  File "/users/stud/k/kruret00/miniconda3/envs/dask/lib/python3.11/site-packages/mpi4py/run.py", line 46, in run_command_line
+    run_path(sys.argv[0], run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/users/stud/k/kruret00/MT/mpi_distributed_assemblies/mpi_distributed_assembly_parsing.py", line 277, in <module>
+    flanking_genes = run(n_targets, nodes, ranks_per_node, repetition, result_path)    
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/stud/k/kruret00/MT/mpi_distributed_assemblies/mpi_distributed_assembly_parsing.py", line 207, in run
+    parallel_args = split_list_chunks(files, cores)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/stud/k/kruret00/MT/mpi_distributed_assemblies/mpi_distributed_assembly_parsing.py", line 174, in split_list_chunks
+    incrementation = 1 if (n_values // n_chunks) * (n_chunks-1) >= n_values else 0 
+                           ~~~~~~~~~^^~~~~~~~~~
+ZeroDivisionError: integer division or modulo by zero
+Running repetition 2...
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2336175.0 ON cl-node002 CANCELLED AT 2024-08-18T00:40:37 ***
+srun: error: cl-node002: task 0: Exited with exit code 1

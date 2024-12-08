@@ -1,0 +1,33 @@
+2024-08-09 08:25:14,622 - distributed.batched - INFO - Batched Comm Closed <TCP (closed)  local=tcp://10.34.59.1:42562 remote=tcp://10.34.59.1:40420>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 262, in write
+    raise CommClosedError()
+distributed.comm.core.CommClosedError
+Starting Cluster
+#!/usr/bin/env bash
+
+#SBATCH -J dask-worker
+#SBATCH -n 1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH -t 00:30:00
+#SBATCH --hint=nomultithread
+#SBATCH --exclusive
+#SBATCH --partition=xeon
+#SBATCH --output=/users/stud/k/kruret00/MT/dask_distributed_assemblies/results/worker_slurm_out/10000_16_2_3_%j.out
+ml Python
+/opt/apps/easybuild/software/Python/3.10.8-GCCcore-12.2.0/bin/python3 -m distributed.cli.dask_worker tcp://10.34.59.1:42562 --name dummy-name --nthreads 1 --memory-limit 1.86GiB --nworkers 2 --nanny --death-timeout 60
+
+Running repetition 3...
+{'type': 'Scheduler', 'id': 'Scheduler-e91ff847-60c6-4069-8833-c38ce110ff34', 'address': 'tcp://10.34.59.1:42562', 'services': {'dashboard': 8787}, 'started': 1723184694.8689327, 'workers': {}}
+Cores 0
+Threads 0
+Futures created
+Results gathered
+Done repetition 3
+Closing Cluster
+Finished and found 10000 assemblies
