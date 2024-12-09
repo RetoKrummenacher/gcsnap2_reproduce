@@ -3,6 +3,8 @@
 The following is a description of artifacts necessary to reproduce the paper under review “Scalable Genomic Context Analysis with GCsnap2 on HPC Clusters”.
 
 ## Directory Structure
+The absolute paths are masked '/.../' and need to be adapted according to where you cloned this repository in all scripts.
+
 ### [conda_envs/](./conda_envs/)  
 Contains the YML files for the Conda environments used. For package end environmental management, we employed [Miniconda](https://docs.anaconda.com/miniconda/) which was shipped with Conda 24.9.2 and Python 3.12.3.
 ### [plots/](./plots/)

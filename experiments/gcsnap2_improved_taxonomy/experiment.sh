@@ -2,7 +2,7 @@
 
 ## script to run GCsnap cluster
 path=/.../
-gcsnap_path=/.../gcsnap2cluster/ # cloned GCsnap2 repository
+gcsnap_path=/.../gcsnap2cluster/ # # cloned GCsnap2 Cluster repository
 exp_path=${path}/experiments/gcsnap2_improved_taxonomy/
 target_files=${path}targets/
 

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ## script to run GCsnap cluster
-path=/users/stud/k/kruret00/PASC25/
-gcsnap_path=/users/stud/k/kruret00/gcsnap2cluster/
+path=/.../
+gcsnap_path=/.../gcsnap2cluster/ # cloned GCsnap2 Cluster repository
 exp_path=${path}/experiments/gcsnap2_amd/
 target_files=${path}targets/
 

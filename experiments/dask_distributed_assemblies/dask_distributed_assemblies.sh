@@ -7,7 +7,7 @@
 ## all explanations about how Dasks uses the arguments to set up a Cluster can be found in the Python script
 	# ${exp_path}dask_distributed_assembly_parsing.py
 
-path=/users/stud/k/kruret00/PASC25/experiments/
+path=/.../experiments/
 exp_path=${path}dask_distributed_assemblies/
 result_path=${exp_path}results/
 dask_worker_out=${result_path}worker_slurm_out/

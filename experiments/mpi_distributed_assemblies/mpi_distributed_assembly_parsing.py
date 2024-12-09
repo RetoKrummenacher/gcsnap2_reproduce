@@ -183,7 +183,8 @@ def split_list_chunks(input_list: list, n_chunks: int) -> list[list]:
 # ------------------------------------------------------
 
 def get_list_of_files() -> None:
-    data_path = '/users/stud/k/kruret00/PASC25/targets/assemblies'  
+    # the files from the list need to be downloaded first into a folder called assemblies
+    data_path = '/.../targets/assemblies'  
     # empty target folder    
     return glob.glob(os.path.join(data_path,'*.gff.gz'))
 
