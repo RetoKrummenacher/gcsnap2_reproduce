@@ -24,43 +24,60 @@ The information used for the plots is available either in TSV files for GCsnap1 
 To be able to reproduce the results, [GCsnap1 Desktop with timings](https://github.com/RetoKrummenacher/GCsnap/tree/timing) and [GCsnap2 Cluster v1.0.0](https://github.com/GCsnap/gcsnap2cluster) are necessary. Instructions how to install and use are found there.
 
 #### [gcsnap1/](./experiments/gcsnap1/)
-Tests with GCsnap1 to measure execution time with various number of input sequences (targets) and Python threads.
+Tests with GCsnap1 Desktop to measure execution time with various number of input sequences (targets) and Python threads.
 - Run file: experiment.sh
 - Job script: run.job
-- [Results](./experiments/gcsnap1/results/)  
-Naming convention for each configuration: ?_targets_?_threads_?_rep
+- [Results](./experiments/gcsnap1/results/)
+    - Naming convention for each configuration: X_targets_X_threads_X_rep  
+    - Timing results in times_*.TSV 
+    - Runtime arguments in *_input_arguments.LOG
+    - Terminal output in out_*.TXT
 #### [dask_distributed_assemblies](./experiments/dask_distributed_assemblies/)
 Tests to asses Dask.jobqueue
 - Run file: dask_distributed_assemblies.sh
 - Job script: dask_distributed_assemblies.job
 - Python script: dask_distributed_assembly_parsing.py
 - [Results](./experiments/dask_distributed_assemblies/results/)  
-Naming convention for each configuration: targets_nodes_cpus_rep
+    - Naming convention for each configuration: targets_nodes_cpus_rep 
+    - Timing results in CSV
 #### [mpi_distributed_assemblies](./experiments/mpi_distributed_assemblies/)
 Tests to asses mpi4py.futures.
 - Run file: mpi_distributed_assemblies.sh
 - Job script: mpi_distributed_assemblies.job
 - Python script: mpi_distributed_assembly_parsing.py
 - [Results](./experiments/mpi_distributed_assemblies/results/)  
-Naming convention for each configuration: targets_nodes_cpus_rep
+    - Naming convention for each configuration: targets_nodes_cpus_rep 
+    - Timing results in CSV
 #### [gcsnap2/](./experiments/gcsnap2/)
-Experiments with GCsnap2 Desktop with mpi4py.futures (A.) to measure execution time with 1'000 input sequences.
+Experiments with GCsnap2 Cluster with mpi4py.futures (A.) to measure execution time with 1'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
 - [Results](./experiments/gcsnap2/results/)  
-Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
+    - Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
+    - Timing results in timing.CSV 
+    - Runtime arguments in input_arguments.LOG
+    - Terminal output in run_*.OUT
+    - Full logging in gcsnap_*.LOG
 #### [gcsnap2_improved_taxonomy/](./experiments/gcsnap2_improved_taxonomy/)
-Experiments with GCsnap2 Desktop with mpi4py.futures with improved taxonomy parsing (B.) to measure execution time with 1'000 input sequencess.
+Experiments with GCsnap2 Cluster with mpi4py.futures with improved taxonomy parsing (B.) to measure execution time with 1'000 input sequencess.
 - Run file: experiment.sh
 - Job script: run.job
 - [Results](./experiments/gcsnap2_improved_taxonomy/results/)  
-Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
+    - Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
+    - Timing results in timing.CSV 
+    - Runtime arguments in input_arguments.LOG
+    - Terminal output in run_*.OUT
+    - Full logging in gcsnap_*.LOG
 #### [gcsnap2_amd/](./experiments/gcsnap2_amd/)
-Scaling experiments with GCsnap2 Desktop (B.) to measure execution time with 10'000 input sequencess.
+Scaling experiments with GCsnap2 Cluster (B.) to measure execution time with 10'000 input sequencess.
 - Run file: experiment.sh
 - Job script: run.job
 - [Results](./experiments/gcsnap2_amd/results/)  
-Naming convention for each configuration: 10000_targets_1_nodes_X_ranks_X_cpus_X_rep
+    - Naming convention for each configuration: 10000_targets_1_nodes_X_ranks_X_cpus_X_rep
+    - Timing results in timing.CSV 
+    - Runtime arguments in input_arguments.LOG
+    - Terminal output in run_*.OUT
+    - Full logging in gcsnap_*.LOG
 
 
 
