@@ -2,6 +2,10 @@
 
 The following is a description of artifacts necessary to reproduce the paper under review “Scalable Genomic Context Analysis with GCsnap2 on HPC Clusters”.
 
+Tables 1 and 2 present an overview of all conducted tests and experiments.
+![Project Overview](./tables/Table1.png)
+![Project Overview](./tables/Table2.png)
+
 ## Directory Structure
 The absolute paths are masked '/.../' and need to be adapted according to where you cloned this repository in all scripts.
 
