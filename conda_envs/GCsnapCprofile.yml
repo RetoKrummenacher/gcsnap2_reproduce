@@ -1,4 +1,6 @@
-name: GCsnapC
+# Score-P needs to be installed on the machine for the python bindings to work.
+# in a cluster environment, use module load
+name: GCsnapCprofile
 channels:
   - bioconda
   - conda-forge
@@ -22,7 +24,10 @@ dependencies:
   - gcc_impl_linux-64=14.1.0
   - gettext=0.22.5
   - gettext-tools=0.22.5
+  - gfortran_linux-64=14.1.0   # Fortran compiler
+  - gfortran_impl_linux-64=14.1.0  # Ensures gfortran binaries are installed
   - gmp=6.3.0
+  - gxx_linux-64=14.1.0
   - importlib-metadata=8.5.0
   - ipykernel=6.29.5
   - ipython=8.29.0
@@ -98,7 +103,8 @@ dependencies:
   - zipp=3.21.0
   - zlib=1.3.1
   - pip:
-      - git+https://github.com/GCsnap/gcsnap2cluster.git@main  
+      - git+https://github.com/GCsnap/gcsnap2cluster.git@main
+      - scorep
       - annoy==1.17.3
       - biopython==1.83
       - bokeh==1.3.4
@@ -133,4 +139,7 @@ dependencies:
       - scipy==1.14.0
       - threadpoolctl==3.5.0
       - tzdata==2024.2
-prefix: /users/stud/k/kruret00/miniconda3/envs/GCsnapC
+      - scalene==1.5.51
+      - memory-profiler==0.61.0
+      - gprof2dot==2024.6.6
+prefix: /users/stud/k/kruret00/miniconda3/envs/GCsnapCprofile

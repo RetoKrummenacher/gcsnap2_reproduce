@@ -111,6 +111,7 @@ dependencies:
   - zlib=1.2.13
   - zstd=1.5.6
   - pip:
+      - git+https://github.com/RetoKrummenacher/GCsnap.git@timing
       - annoy==1.17.3
       - attrs==23.2.0
       - biopython==1.83
