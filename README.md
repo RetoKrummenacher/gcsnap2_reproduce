@@ -2,8 +2,7 @@
 
 The following is a description of artifacts necessary to reproduce the paper under review “Scalable Genomic Context Analysis with GCsnap2 on HPC Clusters”.
 
-Tables 1 and 2 present an overview of all conducted tests and experiments.
-![Project Overview](./tables/Table1.png)
+Tables 2 present an overview of all conducted tests and experiments.
 ![Project Overview](./tables/Table2.png)
 
 ## Directory Structure
@@ -52,18 +51,18 @@ Tests to asses mpi4py.futures.
 - [Results](./experiments/mpi_distributed_assemblies/results/)  
     - Naming convention for each configuration: targets_nodes_cpus_rep 
     - Timing results in CSV
-#### [gcsnap2/](./experiments/gcsnap2/)
+#### [setA/](./experiments/setA/)
 Experiments with GCsnap2 Cluster with mpi4py.futures (A.) to measure execution time with 1'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
-- [Results](./experiments/gcsnap2/results/)  
+- [Results](./experiments/setA/results/)  
     - Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
     - Timing results in timing.CSV 
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-#### [gcsnap2_improved_taxonomy/](./experiments/gcsnap2_improved_taxonomy/)
-Experiments with GCsnap2 Cluster with mpi4py.futures with improved taxonomy parsing (B.) to measure execution time with 1'000 input sequencess.
+#### [setB/](./experiments/setB/)
+Experiments with GCsnap2 Cluster with mpi4py.futures with improved taxonomy parsing (B.) to measure execution time with 1'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
 - [Results](./experiments/gcsnap2_improved_taxonomy/results/)  
@@ -72,17 +71,28 @@ Experiments with GCsnap2 Cluster with mpi4py.futures with improved taxonomy pars
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-#### [gcsnap2_amd/](./experiments/gcsnap2_amd/)
-Scaling experiments with GCsnap2 Cluster (B.) to measure execution time with 10'000 input sequencess.
+#### [setC/](./experiments/setC/)
+Scaling experiments with GCsnap2 Cluster (B.) to measure execution time with 10'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
-- [Results](./experiments/gcsnap2_amd/results/)  
+- [Results](./experiments/setC/results/)  
     - Naming convention for each configuration: 10000_targets_1_nodes_X_ranks_X_cpus_X_rep
     - Timing results in timing.CSV 
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-
+#### [MPIprofiling/](./experiments/MPIprofiling/)
+Scaling experiments with GCsnap2 Cluster (C.) to measure execution time with 10'000 input sequences for each MPI rank
+- Run file: experiment.sh
+- Job script: run.job
+- [Results](./experiments/MPIprofiling/results/)  
+    - Naming convention for each configuration: 10000_targets_1_nodes_X_ranks_X_cpus_X_rep
+    - Timing results in timing.CSV 
+    - Runtime arguments in input_arguments.LOG
+    - Terminal output in run_*.OUT
+    - Full logging in gcsnap_*.LOG
+- [Rank Results](./experiments/MPIprofiling/)  
+    - Log files for each substep of GCsnap2 Cluster and each rank. 
 
 
 
