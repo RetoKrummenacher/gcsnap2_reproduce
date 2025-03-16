@@ -1,0 +1,129 @@
+2024-08-09 08:19:10,555 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:38695'
+2024-08-09 08:19:10,556 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:39409'
+2024-08-09 08:19:10,561 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:44867'
+2024-08-09 08:19:10,562 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:42836'
+2024-08-09 08:19:10,562 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:42156'
+2024-08-09 08:19:10,568 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:41535'
+2024-08-09 08:19:10,569 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:33475'
+2024-08-09 08:19:10,569 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.4:45324'
+2024-08-09 08:19:11,163 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-luohe273', purging
+2024-08-09 08:19:11,163 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-yflxtejy', purging
+2024-08-09 08:19:11,163 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-8e9o4v2h', purging
+2024-08-09 08:19:11,164 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-8lk57ksl', purging
+2024-08-09 08:19:11,164 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-kpjahxiv', purging
+2024-08-09 08:19:11,164 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-mu2fojy6', purging
+2024-08-09 08:19:11,164 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-wpw3cbw8', purging
+2024-08-09 08:19:11,165 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-k4se6z1x', purging
+2024-08-09 08:19:11,955 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:42840
+2024-08-09 08:19:11,955 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:42840
+2024-08-09 08:19:11,955 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-3
+2024-08-09 08:19:11,956 - distributed.worker - INFO -          dashboard at:           10.34.59.4:33935
+2024-08-09 08:19:11,956 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,956 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,956 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,956 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,956 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:34813
+2024-08-09 08:19:11,956 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-j2vy22op
+2024-08-09 08:19:11,956 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:34813
+2024-08-09 08:19:11,956 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,956 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-2
+2024-08-09 08:19:11,956 - distributed.worker - INFO -          dashboard at:           10.34.59.4:34096
+2024-08-09 08:19:11,956 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,956 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,956 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,956 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,956 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-y2moa__d
+2024-08-09 08:19:11,956 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,957 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:44765
+2024-08-09 08:19:11,957 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:38573
+2024-08-09 08:19:11,957 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:44765
+2024-08-09 08:19:11,957 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:38573
+2024-08-09 08:19:11,957 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-0
+2024-08-09 08:19:11,957 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-1
+2024-08-09 08:19:11,957 - distributed.worker - INFO -          dashboard at:           10.34.59.4:34763
+2024-08-09 08:19:11,957 - distributed.worker - INFO -          dashboard at:           10.34.59.4:39773
+2024-08-09 08:19:11,957 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,957 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,957 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,957 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,957 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,957 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,957 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,957 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,957 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-sgur9p58
+2024-08-09 08:19:11,958 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-5nr2au19
+2024-08-09 08:19:11,958 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,958 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,959 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:35873
+2024-08-09 08:19:11,959 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:35873
+2024-08-09 08:19:11,959 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-4
+2024-08-09 08:19:11,959 - distributed.worker - INFO -          dashboard at:           10.34.59.4:36613
+2024-08-09 08:19:11,959 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:37564
+2024-08-09 08:19:11,959 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,959 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,959 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:37564
+2024-08-09 08:19:11,959 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,959 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-6
+2024-08-09 08:19:11,959 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,959 - distributed.worker - INFO -          dashboard at:           10.34.59.4:44044
+2024-08-09 08:19:11,959 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-32m5czxg
+2024-08-09 08:19:11,959 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:46579
+2024-08-09 08:19:11,960 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.4:46727
+2024-08-09 08:19:11,960 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,960 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,960 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,960 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:46579
+2024-08-09 08:19:11,960 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.4:46727
+2024-08-09 08:19:11,960 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,960 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-5
+2024-08-09 08:19:11,960 - distributed.worker - INFO -           Worker name:           SLURMCluster-3-7
+2024-08-09 08:19:11,960 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,960 - distributed.worker - INFO -          dashboard at:           10.34.59.4:39942
+2024-08-09 08:19:11,960 - distributed.worker - INFO -          dashboard at:           10.34.59.4:41100
+2024-08-09 08:19:11,960 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-t9tr7i6o
+2024-08-09 08:19:11,960 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,961 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:11,961 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,961 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,961 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,961 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,961 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:19:11,961 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,961 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:19:11,961 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-c81n7zhq
+2024-08-09 08:19:11,961 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-uf7la7vm
+2024-08-09 08:19:11,961 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:11,961 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,333 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,334 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,334 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,334 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,334 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,335 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,335 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,335 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,335 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,335 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,335 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,336 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,336 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,336 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,336 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,337 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,348 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,348 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,349 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,349 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,349 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,349 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,350 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,350 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,350 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,350 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,351 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,351 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:19:12,351 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+2024-08-09 08:19:12,351 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45538
+2024-08-09 08:19:12,352 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:19:12,352 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45538
+slurmstepd: error: *** JOB 2331462 ON cl-node004 CANCELLED AT 2024-08-09T08:19:22 ***

@@ -1,0 +1,32 @@
+2024-08-09 08:08:45,803 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.9:45604'
+2024-08-09 08:08:46,400 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-ddpr1fcw', purging
+2024-08-09 08:08:46,400 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-5d_3y6vq', purging
+2024-08-09 08:08:46,400 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-3v_3eth2', purging
+2024-08-09 08:08:46,400 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-yjsxvsd4', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-ncao50eu', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-1zcdavzd', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-wd4l1bby', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-fo5lnxi1', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-_situxum', purging
+2024-08-09 08:08:46,401 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-_qd7vrxp', purging
+2024-08-09 08:08:46,402 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-t0obp5lw', purging
+2024-08-09 08:08:46,402 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-f8vic0cf', purging
+2024-08-09 08:08:46,402 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-a5dhof4s', purging
+2024-08-09 08:08:46,402 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-btl5dux7', purging
+2024-08-09 08:08:46,402 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-tz1o58r6', purging
+2024-08-09 08:08:46,403 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-t5w1e2lz', purging
+2024-08-09 08:08:47,055 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.9:32891
+2024-08-09 08:08:47,055 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.9:32891
+2024-08-09 08:08:47,055 - distributed.worker - INFO -           Worker name:             SLURMCluster-6
+2024-08-09 08:08:47,055 - distributed.worker - INFO -          dashboard at:           10.34.59.9:43853
+2024-08-09 08:08:47,055 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:41601
+2024-08-09 08:08:47,055 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:08:47,055 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 08:08:47,055 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 08:08:47,055 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-tsiit1pb
+2024-08-09 08:08:47,055 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:08:47,623 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 08:08:47,623 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:41601
+2024-08-09 08:08:47,624 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 08:08:47,624 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:41601
+slurmstepd: error: *** JOB 2331315 ON cl-node009 CANCELLED AT 2024-08-09T08:09:23 ***

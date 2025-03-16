@@ -1,0 +1,54 @@
+2024-08-09 04:32:17,195 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.6:33821'
+2024-08-09 04:32:18,041 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-kjbp_17l', purging
+2024-08-09 04:32:18,042 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-6i00y7o9', purging
+2024-08-09 04:32:18,042 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-nvl_xv4v', purging
+2024-08-09 04:32:18,042 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-n1vttlhl', purging
+2024-08-09 04:32:18,042 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-any3k_dg', purging
+2024-08-09 04:32:18,043 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-8g68iyd7', purging
+2024-08-09 04:32:18,043 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-2jg8we3g', purging
+2024-08-09 04:32:18,043 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-6czmvr3c', purging
+2024-08-09 04:32:18,043 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-ph38ucde', purging
+2024-08-09 04:32:18,043 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-hgovch8v', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-7z7a38iy', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-fifc0fg_', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-gs5j7xs8', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-090o7n_m', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-nh2w2gwj', purging
+2024-08-09 04:32:18,044 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-5890vrf0', purging
+2024-08-09 04:32:18,720 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.6:36563
+2024-08-09 04:32:18,720 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.6:36563
+2024-08-09 04:32:18,720 - distributed.worker - INFO -           Worker name:            SLURMCluster-13
+2024-08-09 04:32:18,720 - distributed.worker - INFO -          dashboard at:           10.34.59.6:38085
+2024-08-09 04:32:18,720 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:18,720 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:18,720 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:32:18,720 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:32:18,720 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-kql4nt5e
+2024-08-09 04:32:18,720 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:19,450 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:32:19,450 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:19,450 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:19,451 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45568
+slurmstepd: error: *** JOB 2329187 ON cl-node006 CANCELLED AT 2024-08-09T04:32:27 ***
+2024-08-09 04:32:27,877 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.6:36563. Reason: scheduler-close
+2024-08-09 04:32:27,878 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.6:52600 remote=tcp://10.34.59.1:45568>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.6:52600 remote=tcp://10.34.59.1:45568>: Stream is closed
+2024-08-09 04:32:27,883 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://10.34.59.6:33821'. Reason: scheduler-close
+2024-08-09 04:32:27,886 - distributed.core - INFO - Received 'close-stream' from tcp://10.34.59.1:45568; closing.
+2024-08-09 04:32:27,886 - distributed.nanny - INFO - Worker closed

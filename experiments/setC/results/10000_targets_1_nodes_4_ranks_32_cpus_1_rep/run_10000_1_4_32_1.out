@@ -1,0 +1,57 @@
+---------------------------------------------
+GCsnap
+GCsnap is a python-based, local tool that generates interactive snapshots of 
+conserved protein-coding genomic contexts.
+Thanks for using it!  💙
+---------------------------------------------
+✅  Done configuration file config.yaml loaded
+✅  Done parsing CLI arguments and config.yaml
+✅  Done parsing targets
+🔨 Working on Task 10000_1_4_32_1 with 10000 targets
+  ⚠️  2143 ids is not containd in mapping database. Check 
+gcsnap_10000_1_4_32_1.log
+✅  Done all mapping done. Table saved to mapping.csv
+✅  Done mapping 
+✅  Done download assemblies and extract flanking genes
+  ⚠️  Partial genomic blocks for 1029 target sequences excluded. Set 
+--exclude-partial False to include. Check gcsnap_10000_1_4_32_1.log
+  ⚠️  No flanking genes found for 377 target sequences. Check 
+gcsnap_10000_1_4_32_1.log
+✅  Done add sequences, tax id and species name to flanking genes
+✅  Done syntenies information written to genomic_context_information.json
+✅  Done prepare data for MMseqs
+✅  Done running MMseqs
+✅  Done extracting distance matrix
+✅  Done find clusters
+✅  Done assigning families to flanking genes
+✅  Done create families summary
+        Found 6301 conserved protein families, 774 pseudogenes and 19097 
+non-conserved protein coding regions
+  Functional annotation needs mapping first
+  ⚠️  6090 ids is not containd in mapping database. Check 
+gcsnap_10000_1_4_32_1.log
+✅  Done all mapping done. Table saved to mapping.csv
+✅  Done mapping for functional annotation
+✅  Done get functional annotations and structures
+✅  Done families information written to protein_families_summary.json
+✅  Done running standard operon clustering
+✅  Done create operons summary
+        Found 5191 operon types (out of a total of 6451 input targets)
+✅  Done find most populated operon types
+        Selected 31 operon/genomic_context types, with most populated 
+corresponding to GC Type 02364
+✅  Done selected operon written to selected_operons.json
+✅  Done find and map taxonomy
+✅  Done taxonomy information written to taxonomy.json
+TM annotation set to False. Transmembrane segments and signal peptides will not 
+be searched
+  ⚠️  Images not created due to error. Check gcsnap_10000_1_4_32_1.log
+✅  Done creating interactive genomic context figures
+        Genomic context visualization created in 
+10000_1_4_32_1_interactive_output.html
+✅  Done families information written to protein_families_summary.json
+✅  Done syntenies information written to all_syntenies.json
+✅  Done task 10000_1_4_32_1 with 10000 targets
+---------------------------------------------
+🏁  GCsnap finished successfully! 🥳🎆💫
+---------------------------------------------

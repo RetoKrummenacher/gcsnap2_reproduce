@@ -1,0 +1,137 @@
+2024-08-09 05:49:44,193 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.2:33834'
+2024-08-09 05:49:44,197 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.2:34992'
+2024-08-09 05:49:44,200 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.2:44783'
+2024-08-09 05:49:44,200 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.2:40688'
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.2:41528
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.2:46231
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.2:41528
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.2:46231
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.2:34399
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.2:43691
+2024-08-09 05:49:45,318 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-0
+2024-08-09 05:49:45,318 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-1
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.2:34399
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.2:43691
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          dashboard at:           10.34.59.2:46814
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          dashboard at:           10.34.59.2:39980
+2024-08-09 05:49:45,318 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-3
+2024-08-09 05:49:45,318 - distributed.worker - INFO -           Worker name:           SLURMCluster-0-2
+2024-08-09 05:49:45,318 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,318 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          dashboard at:           10.34.59.2:38877
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO -          dashboard at:           10.34.59.2:42027
+2024-08-09 05:49:45,318 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 05:49:45,318 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 05:49:45,318 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,318 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 05:49:45,318 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-_iu0s7b3
+2024-08-09 05:49:45,318 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-t6swf68k
+2024-08-09 05:49:45,318 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 05:49:45,318 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-_u905eah
+2024-08-09 05:49:45,318 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-s8o2bm7n
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,318 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,728 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 05:49:45,729 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,729 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 05:49:45,729 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,729 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:35064
+2024-08-09 05:49:45,729 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,730 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,730 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 05:49:45,730 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:35064
+2024-08-09 05:49:45,730 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,730 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,731 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:35064
+2024-08-09 05:49:45,731 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 05:49:45,731 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:35064
+2024-08-09 05:49:45,731 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 05:49:45,732 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:35064
+slurmstepd: error: *** JOB 2330369 ON cl-node002 CANCELLED AT 2024-08-09T05:50:21 ***
+2024-08-09 05:50:21,028 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.2:41528. Reason: scheduler-close
+2024-08-09 05:50:21,028 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.2:46231. Reason: scheduler-close
+2024-08-09 05:50:21,028 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.2:34399. Reason: scheduler-close
+2024-08-09 05:50:21,028 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.2:43691. Reason: scheduler-close
+2024-08-09 05:50:21,030 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56845 remote=tcp://10.34.59.1:35064>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56845 remote=tcp://10.34.59.1:35064>: Stream is closed
+2024-08-09 05:50:21,030 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56848 remote=tcp://10.34.59.1:35064>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56848 remote=tcp://10.34.59.1:35064>: Stream is closed
+2024-08-09 05:50:21,030 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56844 remote=tcp://10.34.59.1:35064>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56844 remote=tcp://10.34.59.1:35064>: Stream is closed
+2024-08-09 05:50:21,030 - distributed.batched - INFO - Batched Comm Closed <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56849 remote=tcp://10.34.59.1:35064>
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 297, in write
+    raise StreamClosedError()
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/batched.py", line 115, in _background_send
+    nbytes = yield coro
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/tornado/gen.py", line 767, in run
+    value = future.result()
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 307, in write
+    convert_stream_closed_error(self, e)
+  File "/users/stud/k/kruret00/.local/lib/python3.10/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) Worker->Scheduler local=tcp://10.34.59.2:56849 remote=tcp://10.34.59.1:35064>: Stream is closed

@@ -1,0 +1,62 @@
+#!/bin/bash
+#SBATCH --time=01:00:00
+#SBATCH --exclusive
+#SBATCH --hint=nomultithread
+#SBATCH --partition=amd
+
+# change directory
+cd ${gcsnap_path}
+git checkout profiling
+
+## working with conda
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate GCsnapCprofile
+
+# remove old results
+rm -rf ${exp_path}results/${n_targets}_targets_${nodes}_nodes_${ranks_per_node}_ranks_${cpus_per_task}_cpus_${rep}_rep
+
+#scorep --mpp=mpi \
+                         # -m scalene --cpu-only --reduced-profile --profile-interval 0.1 --output-file=${exp_path}results/scalene_${ident}.txt \
+                         # -m cProfile -o ${exp_path}results/cprofile_${ident}.prof \
+                         # -m mprof run --output ${exp_path}results/mprof_${ident}.dat \
+
+                         ## we were not able to use score-P, as installation within the conde enviroment was not possible and
+                         ## connectiong the conda environment to use the installed score-P on the system failed as well
+                         ## despite the fact that score-P should work with Python through score-P Python bindings,
+                         ## but not within the conda environment, which GCsnap2 Cluster needs by design
+                         # python -m mpi4py.futures -m scorep  --mpp=mpi --thread=omp \
+
+
+
+## call the python script
+srun    --job-name=${ident} \
+        --output=${exp_path}run_${ident}.out \
+        --nodes=${nodes} \
+        --ntasks-per-node=${ranks_per_node} \
+        --cpus-per-task=${cpus_per_task} \
+        --mem=0 \
+        --exclusive \
+        --time=01:00:00 \
+        --partition=xeon \
+        --mpi=pmi2  python -m mpi4py.futures ./gcsnap/__main__.py   --targets ${target_files}target_sequences_${n_targets}.txt \
+                                                                    --n-nodes ${nodes} \
+                                                                    --n-ranks-per-node ${ranks_per_node} \
+                                                                    --n-cpus-per-rank ${cpus_per_task} \
+                                                                    --out-label ${ident} \
+                                                                    > ${exp_path}out_${ident}.txt                                          
+
+# move output files to GCsnaps output folder
+mv ${exp_path}out_${ident}.txt ${ident}
+mv ${exp_path}run_${ident}.out ${ident}		
+
+# move output folder to experiment folder, delete existng once before
+rm -rf ${exp_path}results/${n_targets}_targets_${nodes}_nodes_${ranks_per_node}_ranks_${cpus_per_task}_cpus_${rep}_rep
+mv ${ident} ${exp_path}results/${n_targets}_targets_${nodes}_nodes_${ranks_per_node}_ranks_${cpus_per_task}_cpus_${rep}_rep
+
+# move log files from tmp folder to folder for each repetition
+rm -rf ${exp_path}/rank_rep_${rep}
+mkdir ${exp_path}/rank_rep_${rep}
+mv ${exp_path}tmp_rank_results/*  ${exp_path}/rank_rep_${rep}/
+
+# deactivate conda
+conda deactivate

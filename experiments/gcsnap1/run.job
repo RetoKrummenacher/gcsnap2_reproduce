@@ -17,13 +17,12 @@ conda activate GCsnap
 
 GCsnap 	-targets ${target_files}target_sequences_${targets}.txt \
 		-cpu ${threads} \
-		-annotate_TM False \
 		-get_functional_annotations False \
-		-get_pdb False \
+		-get_pdb True \
 		-all-against-all_method mmseqs \
 		-tmp_folder ${source_p}/tmp \
-		-user_email [add_your_ncbi_email] \
-		-ncbi_api_key [add_your_ncbi_key] \
+		-user_email reto.krummenacher@unibas.ch \
+		-ncbi_api_key c41c985f48ef5f0bb71e43d2f804b7251a08 \
 		> ${target_p}out_${ident}.txt
 		
 # move output files to GCsnaps output folder

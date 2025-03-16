@@ -25,9 +25,9 @@ mmseqs:	mmseqs
 genomic_context_cmap:	Spectral
 out_format:	png
 print_color_summary:	False
-get_pdbs:	False
+get_pdbs:	True
 get_functional_annotations:	False
-annotate_TM:	True
+annotate_TM:	False
 annotation_TM_mode:	uniprot
 annotation_TM_file:	None
 interactive:	True

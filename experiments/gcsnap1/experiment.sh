@@ -4,20 +4,19 @@
 ## Run on amd partition as this is connected to www
 
 # define paths
-source_p=/path_to_gcsnap1_cloned_repository/   # GCsnap run folder
-target_p=/.../experiments/gcsnap1/  # experiment result folder
-target_files=/.../targets/  # files with targets
+source_p=/users/stud/k/kruret00/MT/GCsnap/   # GCsnap run folder
+target_p=/users/stud/k/kruret00/PASC25/experiments_deliver/gcsnap1/  # experiment result folder
+target_files=/users/stud/k/kruret00/PASC25/targets/  # files with targets
 
 
 ## run parallel version (1 2 4 8)
 for threads in  1 2 4 8
 do
 	## targets (10 20 50 100)
-	for targets in 10 20 50 100 
+	for targets in 10 20 50 100
 	do
 	
 		# number of repetitions
-		#for repetition in 1
 		for repetition in {1..5};
 		do
 	

@@ -3,7 +3,7 @@
 ## script to run assembly parsing with mpi4py.futures.
 
 
-path=/.../experiments/
+path=/users/stud/k/kruret00/PASC25/experiments/
 exp_path=${path}mpi_distributed_assemblies/
 result_path=${exp_path}results/
 

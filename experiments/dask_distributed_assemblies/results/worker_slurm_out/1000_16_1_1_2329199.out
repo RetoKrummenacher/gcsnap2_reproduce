@@ -1,0 +1,17 @@
+2024-08-09 04:32:22,463 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.18:42849'
+2024-08-09 04:32:23,215 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/scheduler-fhdi1xe7', purging
+2024-08-09 04:32:23,215 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-tpiqu6jn', purging
+2024-08-09 04:32:23,215 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-4mv7qji8', purging
+2024-08-09 04:32:23,216 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-8f973e0c', purging
+2024-08-09 04:32:23,216 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-6ho61er4', purging
+2024-08-09 04:32:23,941 - distributed.worker - INFO -       Start worker at:    tcp://10.34.59.18:43269
+2024-08-09 04:32:23,941 - distributed.worker - INFO -          Listening to:    tcp://10.34.59.18:43269
+2024-08-09 04:32:23,941 - distributed.worker - INFO -           Worker name:             SLURMCluster-1
+2024-08-09 04:32:23,941 - distributed.worker - INFO -          dashboard at:          10.34.59.18:41728
+2024-08-09 04:32:23,941 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:23,941 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:23,941 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:32:23,941 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:32:23,941 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-20y6h97q
+2024-08-09 04:32:23,941 - distributed.worker - INFO - -------------------------------------------------
+slurmstepd: error: *** JOB 2329199 ON cl-node018 CANCELLED AT 2024-08-09T04:32:27 ***

@@ -1,0 +1,33 @@
+2024-08-09 04:32:16,765 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.34.59.9:44225'
+2024-08-09 04:32:17,824 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-v6a5cbg6', purging
+2024-08-09 04:32:17,825 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-70xgoh8b', purging
+2024-08-09 04:32:17,825 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-w9x58waw', purging
+2024-08-09 04:32:17,825 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-gx7lkgaa', purging
+2024-08-09 04:32:17,825 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-87skjezm', purging
+2024-08-09 04:32:17,825 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-01ejyeaj', purging
+2024-08-09 04:32:17,826 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-0mvei572', purging
+2024-08-09 04:32:17,826 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-wuigrwq1', purging
+2024-08-09 04:32:17,826 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-csiktion', purging
+2024-08-09 04:32:17,826 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-1vo8si17', purging
+2024-08-09 04:32:17,826 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-f0ccpg92', purging
+2024-08-09 04:32:17,827 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-5auarq_7', purging
+2024-08-09 04:32:17,827 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-l0gs1k8r', purging
+2024-08-09 04:32:17,827 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-3kje5r56', purging
+2024-08-09 04:32:17,827 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-18is5blh', purging
+2024-08-09 04:32:17,827 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/worker-wslgv450', purging
+2024-08-09 04:32:18,505 - distributed.worker - INFO -       Start worker at:     tcp://10.34.59.9:40240
+2024-08-09 04:32:18,506 - distributed.worker - INFO -          Listening to:     tcp://10.34.59.9:40240
+2024-08-09 04:32:18,506 - distributed.worker - INFO -           Worker name:             SLURMCluster-3
+2024-08-09 04:32:18,506 - distributed.worker - INFO -          dashboard at:           10.34.59.9:44812
+2024-08-09 04:32:18,506 - distributed.worker - INFO - Waiting to connect to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:18,506 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:18,506 - distributed.worker - INFO -               Threads:                          1
+2024-08-09 04:32:18,506 - distributed.worker - INFO -                Memory:                   1.86 GiB
+2024-08-09 04:32:18,506 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-3ufvi9d6
+2024-08-09 04:32:18,506 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:18,921 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-08-09 04:32:18,922 - distributed.worker - INFO -         Registered to:     tcp://10.34.59.1:45568
+2024-08-09 04:32:18,922 - distributed.worker - INFO - -------------------------------------------------
+2024-08-09 04:32:18,922 - distributed.core - INFO - Starting established connection to tcp://10.34.59.1:45568
+slurmstepd: error: *** JOB 2329190 ON cl-node009 CANCELLED AT 2024-08-09T04:32:27 ***
+2024-08-09 04:32:27,877 - distributed.worker - INFO - Stopping worker at tcp://10.34.59.9:40240. Reason: scheduler-close
