@@ -26,7 +26,7 @@ The information used for the plots is available either in TSV files for GCsnap1 
 
 To be able to reproduce the results, [GCsnap1 Desktop with timings](https://github.com/RetoKrummenacher/GCsnap/tree/timing) and [GCsnap2 Cluster v1.0.0](https://github.com/GCsnap/gcsnap2cluster) are necessary. Instructions how to install and use are found there.
 
-#### [gcsnap1/](./experiments/gcsnap1/)
+#### [gcsnap1](./experiments/gcsnap1/)
 Tests with GCsnap1 Desktop to measure execution time with various number of input sequences (targets) and Python threads.
 - Run file: experiment.sh
 - Job script: run.job
@@ -51,7 +51,7 @@ Tests to asses mpi4py.futures.
 - [Results](./experiments/mpi_distributed_assemblies/results/)  
     - Naming convention for each configuration: targets_nodes_cpus_rep 
     - Timing results in CSV
-#### [setA/](./experiments/setA/)
+#### [setA](./experiments/setA/)
 Experiments with GCsnap2 Cluster with mpi4py.futures (A.) to measure execution time with 1'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
@@ -61,17 +61,17 @@ Experiments with GCsnap2 Cluster with mpi4py.futures (A.) to measure execution t
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-#### [setB/](./experiments/setB/)
+#### [setB](./experiments/setB/)
 Experiments with GCsnap2 Cluster with mpi4py.futures with improved taxonomy parsing (B.) to measure execution time with 1'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
-- [Results](./experiments/gcsnap2_improved_taxonomy/results/)  
+- [Results](./experiments/setB/results/)  
     - Naming convention for each configuration: 1000_targets_X_nodes_X_ranks_X_cpus_X_rep
     - Timing results in timing.CSV 
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-#### [setC/](./experiments/setC/)
+#### [setC](./experiments/setC/)
 Scaling experiments with GCsnap2 Cluster (B.) to measure execution time with 10'000 input sequences.
 - Run file: experiment.sh
 - Job script: run.job
@@ -81,7 +81,7 @@ Scaling experiments with GCsnap2 Cluster (B.) to measure execution time with 10'
     - Runtime arguments in input_arguments.LOG
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
-#### [MPIprofiling/](./experiments/MPIprofiling/)
+#### [MPIprofiling](./experiments/MPIprofiling/)
 Scaling experiments with GCsnap2 Cluster (C.) to measure execution time with 10'000 input sequences for each MPI rank
 - Run file: experiment.sh
 - Job script: run.job
@@ -92,7 +92,7 @@ Scaling experiments with GCsnap2 Cluster (C.) to measure execution time with 10'
     - Terminal output in run_*.OUT
     - Full logging in gcsnap_*.LOG
 - [Rank Results](./experiments/MPIprofiling/)  
-    - Log files for each substep of GCsnap2 Cluster and each rank. 
+    - Log files for each substep of GCsnap2 Cluster and each rank: rank_rep_?
 
 
 
